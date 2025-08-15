@@ -1,0 +1,10 @@
+--- Makefile.core.mk
++++ Makefile.core.mk
+@@ -163,6 +163,7 @@ export ISTIO_ENVOY_MACOS_RELEASE_PATH ?= ${ISTIO_ENVOY_MACOS_RELEASE_DIR}/${ISTI
+ export USE_LOCAL_PROXY ?= 0
+ ifeq ($(USE_LOCAL_PROXY),1)
+   export ISTIO_ENVOY_LOCAL ?= $(realpath ${ISTIO_GO}/../proxy/bazel-bin/src/envoy/envoy)
++  export ISTIO_ENVOY_LOCAL_PATH ?= ${ISTIO_ENVOY_LOCAL}
+   # Point the native paths to the local envoy build.
+   ifeq ($(GOOS_LOCAL), Darwin)
+     export ISTIO_ENVOY_MACOS_RELEASE_DIR = $(dir ${ISTIO_ENVOY_LOCAL})

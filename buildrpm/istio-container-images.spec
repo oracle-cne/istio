@@ -14,9 +14,6 @@ Release:                    %{istio_release}
 Summary:                    Istio(Connect, secure, control, and observe services) docker images
 License:                    UPL
 Source:                     %{name}-%{version}.tar.bz2
-{{{- if semverCompare "<1.18.0" $version }}}
-ExclusiveArch:              x86_64
-{{{- end }}}
 Vendor:                     Oracle America
 BuildRequires:              rpm >= 4.11.3
 BuildRequires:              ca-certificates

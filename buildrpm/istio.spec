@@ -16,16 +16,12 @@
 %global debug_package   %{nil}
 %endif
 
-{{{- if semverCompare ">=1.18.0" $version }}}
 %ifarch %{arm} arm64 aarch64
 %global custom_arch arm64
 %else
 %global custom_arch amd64
 %endif
 %global linux_arch linux_%{custom_arch}
-{{{- else }}}
-%global linux_arch linux_amd64
-{{{- end }}}
 
 %global import_path     istio.io/istio
 %global istio_go_path   ISTIO
@@ -36,8 +32,6 @@
 %if "%{dist}" == ".el8"
 {{{- if semverCompare ">=1.18.0" $version }}}
 %global binaries        pilot-discovery pilot-agent istioctl istio-cni install-cni
-{{{- else if semverCompare ">=1.15.1" $version }}}
-%global binaries        pilot-discovery pilot-agent istioctl istio-cni install-cni istio-cni-taint
 {{{- else }}}
 %global binaries        pilot-discovery pilot-agent istioctl
 {{{- end }}}
@@ -73,10 +67,6 @@ Source0:                    %{name}-%{version}.tar.bz2
 Source1:                    istiorc
 Source2:                    buildinfo
 Patch0:                     run.sh.patch
-{{{- if semverCompare "<1.13" $version }}}
-Patch1:                     Makefile.core.mk.patch
-Patch2:                     upgrade.go.patch
-{{{- end }}}
 Patch3:                     setup_env.sh.patch
 {{{- if semverCompare "<1.22" $version }}}
 Patch4:                     egress-values.patch
@@ -88,19 +78,6 @@ Patch5:                     ingress-values_1.22.patch
 Patch6:                     init.sh.patch
 Patch7:                     Makefile.core.mk.patch
 Patch8:                     gobuild.sh.patch
-{{{- if semverCompare "<1.18.0" $version }}}
-# e.g. el6 has ppc64 arch without gcc-go, so EA tag is required
-ExclusiveArch:  %{?go_arches:%{go_arches}}%{!?go_arches:%{ix86} x86_64 aarch64 %{arm}}
-{{{- end }}}
-{{{- if semverCompare "<1.20.0" $version }}}
-Obsoletes:                  istio-mixc
-Obsoletes:                  istio-mixs
-Obsoletes:                  istio-node-agent
-Obsoletes:                  istio-citadel
-Obsoletes:                  istio-galley
-Obsoletes:                  istio-sidecar-injector
-Obsoletes:                  istio-proxy-init
-{{{- end }}}
 
 # If go_compiler is not set to 1, there is no virtual provide. Use golang instead.
 BuildRequires:  golang
@@ -241,20 +218,11 @@ touch %{istio_go_src}/ENVOY_BIN/envoy
 # no invalid podman arguments are used
 pushd %{istio_go_src}
 %patch0
-{{{- if semverCompare "<1.13" $version }}}
-%patch1
-%patch2
-{{{- end }}}
 %if "%{dist}" == ".el7"
 %patch3
 %endif
 %patch4
 %patch5
-{{{- if semverCompare "<1.19.0" $version }}}
-%patch6
-%patch7
-%patch8
-{{{- end }}}
 popd
 
 which python || ln -s /usr/bin/python2 /usr/bin/python
@@ -433,12 +401,6 @@ sort -u -o devel.file-list devel.file-list
 %files install-cni
 %{_bindir}/istio-cni
 %{_bindir}/install-cni
-%license %{istio_go_src}/LICENSE %{istio_go_src}/THIRD_PARTY_LICENSES.txt
-{{{- else if semverCompare ">=1.15.1" $version }}}
-%files install-cni
-%{_bindir}/istio-cni
-%{_bindir}/install-cni
-%{_bindir}/istio-cni-taint
 %license %{istio_go_src}/LICENSE %{istio_go_src}/THIRD_PARTY_LICENSES.txt
 {{{- end }}}
 %endif

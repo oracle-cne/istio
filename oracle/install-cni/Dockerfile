@@ -49,10 +49,6 @@ RUN microdnf install -y iptables iproute && \
 RUN useradd -m --uid 1337 istio-proxy && \
   echo "istio-proxy ALL=NOPASSWD: ALL" >> /etc/sudoers
 
-# istio-cni-taint was removed since 1.18
-{{{- if semverCompare "<1.18.0" $version }}}
-COPY --from=0 /usr/local/bin/istio-cni-taint /opt/local/bin/istio-cni-taint
-{{{- end }}}
 ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/cni/bin
 WORKDIR /opt/cni/bin
 CMD ["/usr/local/bin/install-cni"]

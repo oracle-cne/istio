@@ -82,31 +82,6 @@ COPY --from=0 /usr/lib64 /usr/lib64
 COPY --from=0 /etc/iproute2 /etc/iproute2
 RUN ln -s /sbin/xtables-nft-multi /sbin/xtables-multi
 
-{{{- if semverCompare "<=1.17.1" $version }}}
-# TODO: Remove this when OL7 support is deprecated
-# iptables hack
-RUN microdnf install yum
-ADD oracle/common-istio/ol7.repo /etc/yum.repos.d/
-ADD oracle/common-istio/iptables-switch /sbin/iptables-switch
-RUN chmod +x /sbin/iptables-switch
-
-RUN mkdir /ol7_root
-RUN yum -y --installroot=/ol7_root --disablerepo=ol8_baseos_latest --disablerepo=ol8_appstream install iptables binutils
-
-RUN unlink /sbin/ip6tables && \
-        unlink /sbin/ip6tables-restore && \
-        unlink /sbin/ip6tables-save && \
-        unlink /sbin/iptables && \
-        unlink /sbin/iptables-restore && \
-        unlink /sbin/iptables-save
-
-RUN ln -s /sbin/iptables-switch /sbin/ip6tables && \
-        ln -s /sbin/iptables-switch /sbin/ip6tables-restore && \
-        ln -s /sbin/iptables-switch /sbin/ip6tables-save && \
-        ln -s /sbin/iptables-switch /sbin/iptables && \
-        ln -s /sbin/iptables-switch /sbin/iptables-restore && \
-        ln -s /sbin/iptables-switch /sbin/iptables-save
-{{{- end }}}
 # Grab the certs tar from the previous pod
 COPY --from=0 ca-certificates.tgz /
 

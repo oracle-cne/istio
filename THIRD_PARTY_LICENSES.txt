@@ -701,8 +701,8 @@ SPDX:Apache-2.0
 + query='curl -s https://proxy.golang.org/github.com/envoyproxy/go-control-plane/contrib/@v/v1.32.5-0.20250411033633-fceb350c06ca.info|jq -r '''.Origin.URL''''
 + pkg_version=fceb350c06ca
 ++ eval 'curl -s https://proxy.golang.org/github.com/envoyproxy/go-control-plane/contrib/@v/v1.32.5-0.20250411033633-fceb350c06ca.info|jq -r '''.Origin.URL''''
-+++ curl -s https://proxy.golang.org/github.com/envoyproxy/go-control-plane/contrib/@v/v1.32.5-0.20250411033633-fceb350c06ca.info
 +++ jq -r .Origin.URL
++++ curl -s https://proxy.golang.org/github.com/envoyproxy/go-control-plane/contrib/@v/v1.32.5-0.20250411033633-fceb350c06ca.info
 + pkg_github_url=https://github.com/envoyproxy/go-control-plane
 + [[ https://github.com/envoyproxy/go-control-plane = 
 ull ]]
@@ -734,23 +734,23 @@ ull ]]
 + subcomponent=./contrib
 + [[ -n ./contrib ]]
 + cd ./contrib
-++ sed 's/^[[:space:]#/*]+//'
-++ grep -rIE '^(s**|//|#)?s*Copyright( ©)?( [0-9]{4})? .+' --exclude-dir=vendor --exclude-dir=.git .
-++ grep -vIE '^s*(*|//|#)?s*Copyrights*(()?(c|C|©)?())?s+([[|{|<]?(yyyy|[0-9]{4}|year)?[]|}|>]?)?s+([[|{|<]?(name of copyright owner|name of author)[]|}|>]?)?s*$'
-++ cut -d: -f2
 ++ uniq
+++ grep -rIE '^(s**|//|#)?s*Copyright( ©)?( [0-9]{4})? .+' --exclude-dir=vendor --exclude-dir=.git .
 ++ tr '
 ' '
 '
+++ cut -d: -f2
 ++ sort
+++ grep -vIE '^s*(*|//|#)?s*Copyrights*(()?(c|C|©)?())?s+([[|{|<]?(yyyy|[0-9]{4}|year)?[]|}|>]?)?s+([[|{|<]?(name of copyright owner|name of author)[]|}|>]?)?s*$'
+++ sed 's/^[[:space:]#/*]+//'
 + copyright_txt=
 + [[ -z '' ]]
+++ git log '--pretty=format:Copyright %cd %cn %cE' --date=format-local:%Y
+++ uniq
 ++ sort
 ++ tr '
 ' '
 '
-++ git log '--pretty=format:Copyright %cd %cn %cE' --date=format-local:%Y
-++ uniq
 + copyright_txt='Copyright 2017 GitHub noreply@github.com
 Copyright 2017 Kuat kyessenov@users.noreply.github.com
 Copyright 2017 Matt Klein mklein@lyft.com
@@ -859,8 +859,8 @@ SPDX:Apache-2.0
 
 == Copyright
 + GO_PKG=github.com/envoyproxy/go-control-plane/envoy:v1.32.5-0.20250411033633-fceb350c06ca
-++ cut -d: -f1
 ++ echo github.com/envoyproxy/go-control-plane/envoy:v1.32.5-0.20250411033633-fceb350c06ca
+++ cut -d: -f1
 + pkg=github.com/envoyproxy/go-control-plane/envoy
 ++ cut -d: -f2
 ++ echo github.com/envoyproxy/go-control-plane/envoy:v1.32.5-0.20250411033633-fceb350c06ca
@@ -875,8 +875,8 @@ SPDX:Apache-2.0
 + query='curl -s https://proxy.golang.org/github.com/envoyproxy/go-control-plane/envoy/@v/v1.32.5-0.20250411033633-fceb350c06ca.info|jq -r '''.Origin.URL''''
 + pkg_version=fceb350c06ca
 ++ eval 'curl -s https://proxy.golang.org/github.com/envoyproxy/go-control-plane/envoy/@v/v1.32.5-0.20250411033633-fceb350c06ca.info|jq -r '''.Origin.URL''''
-+++ curl -s https://proxy.golang.org/github.com/envoyproxy/go-control-plane/envoy/@v/v1.32.5-0.20250411033633-fceb350c06ca.info
 +++ jq -r .Origin.URL
++++ curl -s https://proxy.golang.org/github.com/envoyproxy/go-control-plane/envoy/@v/v1.32.5-0.20250411033633-fceb350c06ca.info
 + pkg_github_url=https://github.com/envoyproxy/go-control-plane
 + [[ https://github.com/envoyproxy/go-control-plane = 
 ull ]]
@@ -908,23 +908,23 @@ ull ]]
 + subcomponent=./contrib/envoy
 + [[ -n ./contrib/envoy ]]
 + cd ./contrib/envoy
-++ sed 's/^[[:space:]#/*]+//'
-++ cut -d: -f2
-++ uniq
 ++ sort
 ++ grep -vIE '^s*(*|//|#)?s*Copyrights*(()?(c|C|©)?())?s+([[|{|<]?(yyyy|[0-9]{4}|year)?[]|}|>]?)?s+([[|{|<]?(name of copyright owner|name of author)[]|}|>]?)?s*$'
+++ grep -rIE '^(s**|//|#)?s*Copyright( ©)?( [0-9]{4})? .+' --exclude-dir=vendor --exclude-dir=.git .
+++ uniq
 ++ tr '
 ' '
 '
-++ grep -rIE '^(s**|//|#)?s*Copyright( ©)?( [0-9]{4})? .+' --exclude-dir=vendor --exclude-dir=.git .
+++ sed 's/^[[:space:]#/*]+//'
+++ cut -d: -f2
 + copyright_txt=
 + [[ -z '' ]]
 ++ git log '--pretty=format:Copyright %cd %cn %cE' --date=format-local:%Y
+++ uniq
 ++ sort
 ++ tr '
 ' '
 '
-++ uniq
 + copyright_txt='Copyright 2017 GitHub noreply@github.com
 Copyright 2017 Kuat kyessenov@users.noreply.github.com
 Copyright 2017 Matt Klein mklein@lyft.com
@@ -3661,8 +3661,8 @@ SPDX:Apache-2.0
 + query='curl -s https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc/@v/v1.35.0.info|jq -r '''.Origin.URL''''
 + pkg_version=v1.35.0
 ++ eval 'curl -s https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc/@v/v1.35.0.info|jq -r '''.Origin.URL''''
-+++ jq -r .Origin.URL
 +++ curl -s https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc/@v/v1.35.0.info
++++ jq -r .Origin.URL
 + pkg_github_url=https://github.com/open-telemetry/opentelemetry-go
 + [[ https://github.com/open-telemetry/opentelemetry-go = 
 ull ]]
@@ -3685,12 +3685,12 @@ ull ]]
 ++ find . -type d -name '' -print -quit
 + subcomponent=
 + [[ -n '' ]]
-++ cut -d: -f2
-++ uniq
 ++ grep -rIE '^(s**|//|#)?s*Copyright( ©)?( [0-9]{4})? .+' --exclude-dir=vendor --exclude-dir=.git .
-++ sed 's/^[[:space:]#/*]+//'
-++ grep -vIE '^s*(*|//|#)?s*Copyrights*(()?(c|C|©)?())?s+([[|{|<]?(yyyy|[0-9]{4}|year)?[]|}|>]?)?s+([[|{|<]?(name of copyright owner|name of author)[]|}|>]?)?s*$'
 ++ sort
+++ cut -d: -f2
+++ sed 's/^[[:space:]#/*]+//'
+++ uniq
+++ grep -vIE '^s*(*|//|#)?s*Copyrights*(()?(c|C|©)?())?s+([[|{|<]?(yyyy|[0-9]{4}|year)?[]|}|>]?)?s+([[|{|<]?(name of copyright owner|name of author)[]|}|>]?)?s*$'
 ++ tr '
 ' '
 '
@@ -3735,11 +3735,11 @@ SPDX:Apache-2.0
 
 == Copyright
 + GO_PKG=go.opentelemetry.io/otel/exporters/prometheus:v0.57.0
-++ echo go.opentelemetry.io/otel/exporters/prometheus:v0.57.0
 ++ cut -d: -f1
-+ pkg=go.opentelemetry.io/otel/exporters/prometheus
 ++ echo go.opentelemetry.io/otel/exporters/prometheus:v0.57.0
++ pkg=go.opentelemetry.io/otel/exporters/prometheus
 ++ cut -d: -f2
+++ echo go.opentelemetry.io/otel/exporters/prometheus:v0.57.0
 + pkg_version=v0.57.0
 + [[ -z go.opentelemetry.io/otel/exporters/prometheus ]]
 + [[ -z v0.57.0 ]]
@@ -3774,14 +3774,14 @@ ull ]]
 + subcomponent=
 + [[ -n '' ]]
 ++ cut -d: -f2
+++ sort
 ++ grep -rIE '^(s**|//|#)?s*Copyright( ©)?( [0-9]{4})? .+' --exclude-dir=vendor --exclude-dir=.git .
 ++ sed 's/^[[:space:]#/*]+//'
+++ uniq
+++ grep -vIE '^s*(*|//|#)?s*Copyrights*(()?(c|C|©)?())?s+([[|{|<]?(yyyy|[0-9]{4}|year)?[]|}|>]?)?s+([[|{|<]?(name of copyright owner|name of author)[]|}|>]?)?s*$'
 ++ tr '
 ' '
 '
-++ grep -vIE '^s*(*|//|#)?s*Copyrights*(()?(c|C|©)?())?s+([[|{|<]?(yyyy|[0-9]{4}|year)?[]|}|>]?)?s+([[|{|<]?(name of copyright owner|name of author)[]|}|>]?)?s*$'
-++ uniq
-++ sort
 + copyright_txt='Copyright 2009 The Go Authors.
 Copyright 2009 The Go Authors. All rights reserved.
 Copyright 2011 The Go Authors. All rights reserved.
@@ -3844,11 +3844,11 @@ SPDX:Apache-2.0
 
 == Copyright
 + GO_PKG=go.opentelemetry.io/otel/sdk/metric:v1.35.0
-++ echo go.opentelemetry.io/otel/sdk/metric:v1.35.0
 ++ cut -d: -f1
-+ pkg=go.opentelemetry.io/otel/sdk/metric
 ++ echo go.opentelemetry.io/otel/sdk/metric:v1.35.0
++ pkg=go.opentelemetry.io/otel/sdk/metric
 ++ cut -d: -f2
+++ echo go.opentelemetry.io/otel/sdk/metric:v1.35.0
 + pkg_version=v1.35.0
 + [[ -z go.opentelemetry.io/otel/sdk/metric ]]
 + [[ -z v1.35.0 ]]
@@ -3858,8 +3858,8 @@ SPDX:Apache-2.0
 + query='curl -s https://proxy.golang.org/go.opentelemetry.io/otel/sdk/metric/@v/v1.35.0.info|jq -r '''.Origin.URL''''
 + pkg_version=v1.35.0
 ++ eval 'curl -s https://proxy.golang.org/go.opentelemetry.io/otel/sdk/metric/@v/v1.35.0.info|jq -r '''.Origin.URL''''
-+++ curl -s https://proxy.golang.org/go.opentelemetry.io/otel/sdk/metric/@v/v1.35.0.info
 +++ jq -r .Origin.URL
++++ curl -s https://proxy.golang.org/go.opentelemetry.io/otel/sdk/metric/@v/v1.35.0.info
 + pkg_github_url=https://github.com/open-telemetry/opentelemetry-go
 + [[ https://github.com/open-telemetry/opentelemetry-go = 
 ull ]]
@@ -3867,8 +3867,8 @@ ull ]]
 + [[ -z https://github.com/open-telemetry/opentelemetry-go ]]
 + [[ https://github.com/open-telemetry/opentelemetry-go = 
 ull ]]
-++ sed 's|/v[0-9]+/*$||'
 ++ echo https://github.com/open-telemetry/opentelemetry-go
+++ sed 's|/v[0-9]+/*$||'
 + pkg_github_url=https://github.com/open-telemetry/opentelemetry-go
 + trimmed_dir=
 + [[ https://github.com/open-telemetry/opentelemetry-go != h		ps://gi	hu.com ]]
@@ -3882,15 +3882,15 @@ ull ]]
 ++ find . -type d -name '' -print -quit
 + subcomponent=
 + [[ -n '' ]]
+++ uniq
+++ grep -vIE '^s*(*|//|#)?s*Copyrights*(()?(c|C|©)?())?s+([[|{|<]?(yyyy|[0-9]{4}|year)?[]|}|>]?)?s+([[|{|<]?(name of copyright owner|name of author)[]|}|>]?)?s*$'
 ++ cut -d: -f2
 ++ grep -rIE '^(s**|//|#)?s*Copyright( ©)?( [0-9]{4})? .+' --exclude-dir=vendor --exclude-dir=.git .
 ++ sed 's/^[[:space:]#/*]+//'
+++ sort
 ++ tr '
 ' '
 '
-++ sort
-++ grep -vIE '^s*(*|//|#)?s*Copyrights*(()?(c|C|©)?())?s+([[|{|<]?(yyyy|[0-9]{4}|year)?[]|}|>]?)?s+([[|{|<]?(name of copyright owner|name of author)[]|}|>]?)?s*$'
-++ uniq
 + copyright_txt='Copyright 2009 The Go Authors. All rights reserved.
 Copyright 2022 The Go Authors. All rights reserved.
 Copyright The OpenTelemetry Authors

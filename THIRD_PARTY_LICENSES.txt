@@ -3308,6 +3308,17 @@ go.opentelemetry.io/auto/sdk
 SPDX:Apache-2.0
 
 == Copyright
+(no copyright notices found)
+
+--------------------------------- (separator) ----------------------------------
+
+== Dependency
+go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp
+
+== License Type
+SPDX:Apache-2.0
+
+== Copyright
 Copyright (C) 1991, 1999 Free Software Foundation, Inc.
 Copyright (C) 2013 Blake Mizerany
 Copyright (C) 2013-2015 Alexei Starovoitov <ast@kernel.org>
@@ -3354,32 +3365,13 @@ Copyright The OpenTelemetry Authors
 --------------------------------- (separator) ----------------------------------
 
 == Dependency
-go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp
-
-== License Type
-SPDX:Apache-2.0
-
-== Copyright
-Copyright (c) 2016-2017 Uber Technologies, Inc.
-Copyright (c) 2017 Uber Technologies, Inc.
-Copyright (c) 2021 The Jaeger Authors.
-Copyright 2014 gRPC authors.
-Copyright 2017, OpenCensus Authors
-Copyright 2023 The Go Authors. All rights reserved.
-Copyright The OpenTelemetry Authors
-
---------------------------------- (separator) ----------------------------------
-
-== Dependency
 go.opentelemetry.io/otel
 
 == License Type
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2009 The Go Authors. All rights reserved.
-Copyright 2022 The Go Authors. All rights reserved.
-Copyright The OpenTelemetry Authors
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3390,7 +3382,9 @@ go.opentelemetry.io/otel/exporters/otlp/otlptrace
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright 2009 The Go Authors. All rights reserved.
+Copyright 2022 The Go Authors. All rights reserved.
+Copyright The OpenTelemetry Authors
 
 --------------------------------- (separator) ----------------------------------
 

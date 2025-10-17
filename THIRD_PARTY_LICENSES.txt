@@ -684,139 +684,6 @@ github.com/envoyproxy/go-control-plane/contrib
 SPDX:Apache-2.0
 
 == Copyright
-+ GO_PKG=github.com/envoyproxy/go-control-plane/contrib:v1.32.5-0.20250411033633-fceb350c06ca
-++ echo github.com/envoyproxy/go-control-plane/contrib:v1.32.5-0.20250411033633-fceb350c06ca
-++ cut -d: -f1
-+ pkg=github.com/envoyproxy/go-control-plane/contrib
-++ echo github.com/envoyproxy/go-control-plane/contrib:v1.32.5-0.20250411033633-fceb350c06ca
-++ cut -d: -f2
-+ pkg_version=v1.32.5-0.20250411033633-fceb350c06ca
-+ [[ -z github.com/envoyproxy/go-control-plane/contrib ]]
-+ [[ -z v1.32.5-0.20250411033633-fceb350c06ca ]]
-+ pkg=github.com/envoyproxy/go-control-plane/contrib
-+ query=
-+ [[ v1.32.5-0.20250411033633-fceb350c06ca =~ ^v[0-9]+.[0-9]+.[0-9]+$ ]]
-+ [[ v1.32.5-0.20250411033633-fceb350c06ca =~ ^v[0-9]+.[0-9]+.[0-9]+-[0-9]{14}-([0-9a-f]+)$ ]]
-+ [[ v1.32.5-0.20250411033633-fceb350c06ca =~ ^v[0-9]+.[0-9]+.[0-9]+-[0-9]+.[0-9]{14}-([0-9a-f]+)$ ]]
-+ query='curl -s https://proxy.golang.org/github.com/envoyproxy/go-control-plane/contrib/@v/v1.32.5-0.20250411033633-fceb350c06ca.info|jq -r '''.Origin.URL''''
-+ pkg_version=fceb350c06ca
-++ eval 'curl -s https://proxy.golang.org/github.com/envoyproxy/go-control-plane/contrib/@v/v1.32.5-0.20250411033633-fceb350c06ca.info|jq -r '''.Origin.URL''''
-+++ curl -s https://proxy.golang.org/github.com/envoyproxy/go-control-plane/contrib/@v/v1.32.5-0.20250411033633-fceb350c06ca.info
-+++ jq -r .Origin.URL
-+ pkg_github_url=https://github.com/envoyproxy/go-control-plane
-+ [[ https://github.com/envoyproxy/go-control-plane = 
-ull ]]
-+ [[ github.com/envoyproxy/go-control-plane/contrib =~ ^github.com ]]
-+ [[ github.com/envoyproxy/go-control-plane/contrib =~ ^(https?://|git@)?(www.)?github.com[:/][^/]+/[^/]+ ]]
-+ [[ ! github.com/envoyproxy/go-control-plane/contrib =~ ^https?:// ]]
-+ pkg_github_url=https://github.com/envoyproxy/go-control-plane/contrib
-+ [[ -z https://github.com/envoyproxy/go-control-plane/contrib ]]
-+ [[ https://github.com/envoyproxy/go-control-plane/contrib = 
-ull ]]
-++ echo https://github.com/envoyproxy/go-control-plane/contrib
-++ sed 's|/v[0-9]+/*$||'
-+ pkg_github_url=https://github.com/envoyproxy/go-control-plane/contrib
-+ trimmed_dir=
-+ [[ https://github.com/envoyproxy/go-control-plane/contrib != h		ps://gi	hu.com ]]
-+ wget --spider --timeout=3 -q https://github.com/envoyproxy/go-control-plane/contrib
-+ trimmed_dir=contrib
-++ dirname https://github.com/envoyproxy/go-control-plane/contrib
-+ pkg_github_url=https://github.com/envoyproxy/go-control-plane
-+ [[ https://github.com/envoyproxy/go-control-plane != h		ps://gi	hu.com ]]
-+ wget --spider --timeout=3 -q https://github.com/envoyproxy/go-control-plane
-+ break
-+ [[ https://github.com/envoyproxy/go-control-plane = h		ps://gi	hu.com ]]
-+ git clone https://github.com/envoyproxy/go-control-plane
-++ basename https://github.com/envoyproxy/go-control-plane .git
-+ repo_dir=go-control-plane
-+ cd go-control-plane
-++ find . -type d -name contrib -print -quit
-+ subcomponent=./contrib
-+ [[ -n ./contrib ]]
-+ cd ./contrib
-++ grep -rIE '^(s**|//|#)?s*Copyright( ©)?( [0-9]{4})? .+' --exclude-dir=vendor --exclude-dir=.git .
-++ tr '
-' '
-'
-++ uniq
-++ sed 's/^[[:space:]#/*]+//'
-++ sort
-++ grep -vIE '^s*(*|//|#)?s*Copyrights*(()?(c|C|©)?())?s+([[|{|<]?(yyyy|[0-9]{4}|year)?[]|}|>]?)?s+([[|{|<]?(name of copyright owner|name of author)[]|}|>]?)?s*$'
-++ cut -d: -f2
-+ copyright_txt=
-+ [[ -z '' ]]
-++ git log '--pretty=format:Copyright %cd %cn %cE' --date=format-local:%Y
-++ sort
-++ uniq
-++ tr '
-' '
-'
-+ copyright_txt='Copyright 2017 GitHub noreply@github.com
-Copyright 2017 Kuat kyessenov@users.noreply.github.com
-Copyright 2017 Matt Klein mklein@lyft.com
-Copyright 2017 Shriram Rajagopalan rshriram@users.noreply.github.com
-Copyright 2018 GitHub noreply@github.com
-Copyright 2018 Greg Greenway ggreenway@users.noreply.github.com
-Copyright 2018 Kuat kyessenov@users.noreply.github.com
-Copyright 2018 Shriram Rajagopalan rshriram@users.noreply.github.com
-Copyright 2019 Dhi Aurrahman dio@tetrate.io
-Copyright 2019 GitHub noreply@github.com
-Copyright 2019 Kuat kyessenov@users.noreply.github.com
-Copyright 2019 Shriram Rajagopalan rshriram@users.noreply.github.com
-Copyright 2019 Yangmin Zhu ymzhu@google.com
-Copyright 2019 go-control-plane(CircleCI) go-control-plane@users.noreply.github.com
-Copyright 2019 htuch htuch@users.noreply.github.com
-Copyright 2020 GitHub noreply@github.com
-Copyright 2020 Kuat kyessenov@users.noreply.github.com
-Copyright 2020 go-control-plane(Azure Pipelines) go-control-plane@users.noreply.github.com
-Copyright 2020 go-control-plane(CircleCI) go-control-plane@users.noreply.github.com
-Copyright 2021 GitHub noreply@github.com
-Copyright 2021 go-control-plane(Azure Pipelines) go-control-plane@users.noreply.github.com
-Copyright 2022 GitHub noreply@github.com
-Copyright 2022 go-control-plane(Azure Pipelines) go-control-plane@users.noreply.github.com
-Copyright 2023 GitHub noreply@github.com
-Copyright 2023 go-control-plane(Azure Pipelines) go-control-plane@users.noreply.github.com
-Copyright 2023 update-envoy[bot] 135279899+update-envoy[bot]@users.noreply.github.com
-Copyright 2024 GitHub noreply@github.com
-Copyright 2024 update-envoy[bot] 135279899+update-envoy[bot]@users.noreply.github.com
-Copyright 2025 GitHub noreply@github.com
-Copyright 2025 Valerian Roche valerian.roche@datadoghq.com
-Copyright 2025 update-envoy[bot] 135279899+update-envoy[bot]@users.noreply.github.com
-'
-+ cd ..
-+ rm -rf ./go-control-plane
-+ echo Copyright 2017 GitHub 'noreply@github.com
-Copyright' 2017 Kuat 'kyessenov@users.noreply.github.com
-Copyright' 2017 Matt Klein 'mklein@lyft.com
-Copyright' 2017 Shriram Rajagopalan 'rshriram@users.noreply.github.com
-Copyright' 2018 GitHub 'noreply@github.com
-Copyright' 2018 Greg Greenway 'ggreenway@users.noreply.github.com
-Copyright' 2018 Kuat 'kyessenov@users.noreply.github.com
-Copyright' 2018 Shriram Rajagopalan 'rshriram@users.noreply.github.com
-Copyright' 2019 Dhi Aurrahman 'dio@tetrate.io
-Copyright' 2019 GitHub 'noreply@github.com
-Copyright' 2019 Kuat 'kyessenov@users.noreply.github.com
-Copyright' 2019 Shriram Rajagopalan 'rshriram@users.noreply.github.com
-Copyright' 2019 Yangmin Zhu 'ymzhu@google.com
-Copyright' 2019 'go-control-plane(CircleCI)' 'go-control-plane@users.noreply.github.com
-Copyright' 2019 htuch 'htuch@users.noreply.github.com
-Copyright' 2020 GitHub 'noreply@github.com
-Copyright' 2020 Kuat 'kyessenov@users.noreply.github.com
-Copyright' 2020 'go-control-plane(Azure' 'Pipelines)' 'go-control-plane@users.noreply.github.com
-Copyright' 2020 'go-control-plane(CircleCI)' 'go-control-plane@users.noreply.github.com
-Copyright' 2021 GitHub 'noreply@github.com
-Copyright' 2021 'go-control-plane(Azure' 'Pipelines)' 'go-control-plane@users.noreply.github.com
-Copyright' 2022 GitHub 'noreply@github.com
-Copyright' 2022 'go-control-plane(Azure' 'Pipelines)' 'go-control-plane@users.noreply.github.com
-Copyright' 2023 GitHub 'noreply@github.com
-Copyright' 2023 'go-control-plane(Azure' 'Pipelines)' 'go-control-plane@users.noreply.github.com
-Copyright' 2023 'update-envoy[bot]' '135279899+update-envoy[bot]@users.noreply.github.com
-Copyright' 2024 GitHub 'noreply@github.com
-Copyright' 2024 'update-envoy[bot]' '135279899+update-envoy[bot]@users.noreply.github.com
-Copyright' 2025 GitHub 'noreply@github.com
-Copyright' 2025 Valerian Roche 'valerian.roche@datadoghq.com
-Copyright' 2025 'update-envoy[bot]' '135279899+update-envoy[bot]@users.noreply.github.com
-'
 Copyright 2017 GitHub noreply@github.com
 Copyright 2017 Kuat kyessenov@users.noreply.github.com
 Copyright 2017 Matt Klein mklein@lyft.com
@@ -858,139 +725,6 @@ github.com/envoyproxy/go-control-plane/envoy
 SPDX:Apache-2.0
 
 == Copyright
-+ GO_PKG=github.com/envoyproxy/go-control-plane/envoy:v1.32.5-0.20250411033633-fceb350c06ca
-++ echo github.com/envoyproxy/go-control-plane/envoy:v1.32.5-0.20250411033633-fceb350c06ca
-++ cut -d: -f1
-+ pkg=github.com/envoyproxy/go-control-plane/envoy
-++ echo github.com/envoyproxy/go-control-plane/envoy:v1.32.5-0.20250411033633-fceb350c06ca
-++ cut -d: -f2
-+ pkg_version=v1.32.5-0.20250411033633-fceb350c06ca
-+ [[ -z github.com/envoyproxy/go-control-plane/envoy ]]
-+ [[ -z v1.32.5-0.20250411033633-fceb350c06ca ]]
-+ pkg=github.com/envoyproxy/go-control-plane/envoy
-+ query=
-+ [[ v1.32.5-0.20250411033633-fceb350c06ca =~ ^v[0-9]+.[0-9]+.[0-9]+$ ]]
-+ [[ v1.32.5-0.20250411033633-fceb350c06ca =~ ^v[0-9]+.[0-9]+.[0-9]+-[0-9]{14}-([0-9a-f]+)$ ]]
-+ [[ v1.32.5-0.20250411033633-fceb350c06ca =~ ^v[0-9]+.[0-9]+.[0-9]+-[0-9]+.[0-9]{14}-([0-9a-f]+)$ ]]
-+ query='curl -s https://proxy.golang.org/github.com/envoyproxy/go-control-plane/envoy/@v/v1.32.5-0.20250411033633-fceb350c06ca.info|jq -r '''.Origin.URL''''
-+ pkg_version=fceb350c06ca
-++ eval 'curl -s https://proxy.golang.org/github.com/envoyproxy/go-control-plane/envoy/@v/v1.32.5-0.20250411033633-fceb350c06ca.info|jq -r '''.Origin.URL''''
-+++ jq -r .Origin.URL
-+++ curl -s https://proxy.golang.org/github.com/envoyproxy/go-control-plane/envoy/@v/v1.32.5-0.20250411033633-fceb350c06ca.info
-+ pkg_github_url=https://github.com/envoyproxy/go-control-plane
-+ [[ https://github.com/envoyproxy/go-control-plane = 
-ull ]]
-+ [[ github.com/envoyproxy/go-control-plane/envoy =~ ^github.com ]]
-+ [[ github.com/envoyproxy/go-control-plane/envoy =~ ^(https?://|git@)?(www.)?github.com[:/][^/]+/[^/]+ ]]
-+ [[ ! github.com/envoyproxy/go-control-plane/envoy =~ ^https?:// ]]
-+ pkg_github_url=https://github.com/envoyproxy/go-control-plane/envoy
-+ [[ -z https://github.com/envoyproxy/go-control-plane/envoy ]]
-+ [[ https://github.com/envoyproxy/go-control-plane/envoy = 
-ull ]]
-++ echo https://github.com/envoyproxy/go-control-plane/envoy
-++ sed 's|/v[0-9]+/*$||'
-+ pkg_github_url=https://github.com/envoyproxy/go-control-plane/envoy
-+ trimmed_dir=
-+ [[ https://github.com/envoyproxy/go-control-plane/envoy != h		ps://gi	hu.com ]]
-+ wget --spider --timeout=3 -q https://github.com/envoyproxy/go-control-plane/envoy
-+ trimmed_dir=envoy
-++ dirname https://github.com/envoyproxy/go-control-plane/envoy
-+ pkg_github_url=https://github.com/envoyproxy/go-control-plane
-+ [[ https://github.com/envoyproxy/go-control-plane != h		ps://gi	hu.com ]]
-+ wget --spider --timeout=3 -q https://github.com/envoyproxy/go-control-plane
-+ break
-+ [[ https://github.com/envoyproxy/go-control-plane = h		ps://gi	hu.com ]]
-+ git clone https://github.com/envoyproxy/go-control-plane
-++ basename https://github.com/envoyproxy/go-control-plane .git
-+ repo_dir=go-control-plane
-+ cd go-control-plane
-++ find . -type d -name envoy -print -quit
-+ subcomponent=./contrib/envoy
-+ [[ -n ./contrib/envoy ]]
-+ cd ./contrib/envoy
-++ grep -rIE '^(s**|//|#)?s*Copyright( ©)?( [0-9]{4})? .+' --exclude-dir=vendor --exclude-dir=.git .
-++ sort
-++ uniq
-++ sed 's/^[[:space:]#/*]+//'
-++ grep -vIE '^s*(*|//|#)?s*Copyrights*(()?(c|C|©)?())?s+([[|{|<]?(yyyy|[0-9]{4}|year)?[]|}|>]?)?s+([[|{|<]?(name of copyright owner|name of author)[]|}|>]?)?s*$'
-++ tr '
-' '
-'
-++ cut -d: -f2
-+ copyright_txt=
-+ [[ -z '' ]]
-++ uniq
-++ sort
-++ git log '--pretty=format:Copyright %cd %cn %cE' --date=format-local:%Y
-++ tr '
-' '
-'
-+ copyright_txt='Copyright 2017 GitHub noreply@github.com
-Copyright 2017 Kuat kyessenov@users.noreply.github.com
-Copyright 2017 Matt Klein mklein@lyft.com
-Copyright 2017 Shriram Rajagopalan rshriram@users.noreply.github.com
-Copyright 2018 GitHub noreply@github.com
-Copyright 2018 Greg Greenway ggreenway@users.noreply.github.com
-Copyright 2018 Kuat kyessenov@users.noreply.github.com
-Copyright 2018 Shriram Rajagopalan rshriram@users.noreply.github.com
-Copyright 2019 Dhi Aurrahman dio@tetrate.io
-Copyright 2019 GitHub noreply@github.com
-Copyright 2019 Kuat kyessenov@users.noreply.github.com
-Copyright 2019 Shriram Rajagopalan rshriram@users.noreply.github.com
-Copyright 2019 Yangmin Zhu ymzhu@google.com
-Copyright 2019 go-control-plane(CircleCI) go-control-plane@users.noreply.github.com
-Copyright 2019 htuch htuch@users.noreply.github.com
-Copyright 2020 GitHub noreply@github.com
-Copyright 2020 Kuat kyessenov@users.noreply.github.com
-Copyright 2020 go-control-plane(Azure Pipelines) go-control-plane@users.noreply.github.com
-Copyright 2020 go-control-plane(CircleCI) go-control-plane@users.noreply.github.com
-Copyright 2021 GitHub noreply@github.com
-Copyright 2021 go-control-plane(Azure Pipelines) go-control-plane@users.noreply.github.com
-Copyright 2022 GitHub noreply@github.com
-Copyright 2022 go-control-plane(Azure Pipelines) go-control-plane@users.noreply.github.com
-Copyright 2023 GitHub noreply@github.com
-Copyright 2023 go-control-plane(Azure Pipelines) go-control-plane@users.noreply.github.com
-Copyright 2023 update-envoy[bot] 135279899+update-envoy[bot]@users.noreply.github.com
-Copyright 2024 GitHub noreply@github.com
-Copyright 2024 update-envoy[bot] 135279899+update-envoy[bot]@users.noreply.github.com
-Copyright 2025 GitHub noreply@github.com
-Copyright 2025 Valerian Roche valerian.roche@datadoghq.com
-Copyright 2025 update-envoy[bot] 135279899+update-envoy[bot]@users.noreply.github.com
-'
-+ cd ..
-+ rm -rf ./go-control-plane
-+ echo Copyright 2017 GitHub 'noreply@github.com
-Copyright' 2017 Kuat 'kyessenov@users.noreply.github.com
-Copyright' 2017 Matt Klein 'mklein@lyft.com
-Copyright' 2017 Shriram Rajagopalan 'rshriram@users.noreply.github.com
-Copyright' 2018 GitHub 'noreply@github.com
-Copyright' 2018 Greg Greenway 'ggreenway@users.noreply.github.com
-Copyright' 2018 Kuat 'kyessenov@users.noreply.github.com
-Copyright' 2018 Shriram Rajagopalan 'rshriram@users.noreply.github.com
-Copyright' 2019 Dhi Aurrahman 'dio@tetrate.io
-Copyright' 2019 GitHub 'noreply@github.com
-Copyright' 2019 Kuat 'kyessenov@users.noreply.github.com
-Copyright' 2019 Shriram Rajagopalan 'rshriram@users.noreply.github.com
-Copyright' 2019 Yangmin Zhu 'ymzhu@google.com
-Copyright' 2019 'go-control-plane(CircleCI)' 'go-control-plane@users.noreply.github.com
-Copyright' 2019 htuch 'htuch@users.noreply.github.com
-Copyright' 2020 GitHub 'noreply@github.com
-Copyright' 2020 Kuat 'kyessenov@users.noreply.github.com
-Copyright' 2020 'go-control-plane(Azure' 'Pipelines)' 'go-control-plane@users.noreply.github.com
-Copyright' 2020 'go-control-plane(CircleCI)' 'go-control-plane@users.noreply.github.com
-Copyright' 2021 GitHub 'noreply@github.com
-Copyright' 2021 'go-control-plane(Azure' 'Pipelines)' 'go-control-plane@users.noreply.github.com
-Copyright' 2022 GitHub 'noreply@github.com
-Copyright' 2022 'go-control-plane(Azure' 'Pipelines)' 'go-control-plane@users.noreply.github.com
-Copyright' 2023 GitHub 'noreply@github.com
-Copyright' 2023 'go-control-plane(Azure' 'Pipelines)' 'go-control-plane@users.noreply.github.com
-Copyright' 2023 'update-envoy[bot]' '135279899+update-envoy[bot]@users.noreply.github.com
-Copyright' 2024 GitHub 'noreply@github.com
-Copyright' 2024 'update-envoy[bot]' '135279899+update-envoy[bot]@users.noreply.github.com
-Copyright' 2025 GitHub 'noreply@github.com
-Copyright' 2025 Valerian Roche 'valerian.roche@datadoghq.com
-Copyright' 2025 'update-envoy[bot]' '135279899+update-envoy[bot]@users.noreply.github.com
-'
 Copyright 2017 GitHub noreply@github.com
 Copyright 2017 Kuat kyessenov@users.noreply.github.com
 Copyright 2017 Matt Klein mklein@lyft.com
@@ -2657,9 +2391,7 @@ github.com/modern-go/concurrent
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2018 GitHub noreply@github.com
-Copyright 2018 Tao Wen taowen@gmail.com
-Copyright 2018 kr1sten0 zhqy0807@gmail.com
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -2671,15 +2403,8 @@ SPDX:Apache-2.0
 
 == Copyright
 Copyright 2018 GitHub noreply@github.com
-Copyright 2018 Justin Santa Barbara justinsb@google.com
 Copyright 2018 Tao Wen taowen@gmail.com
-Copyright 2018 nextzhou nextzhou@gmail.com
-Copyright 2020 Aaron Simmons paleozogt@gmail.com
-Copyright 2020 GitHub noreply@github.com
-Copyright 2020 Mikko Ylinen mikko.ylinen@intel.com
-Copyright 2020 xueyuan zhangxueyuan@ayang.com
-Copyright 2021 GitHub noreply@github.com
-Copyright 2021 Tao Wen taowen@chengfayun.com
+Copyright 2018 kr1sten0 zhqy0807@gmail.com
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3551,6 +3276,17 @@ go.opentelemetry.io/auto/sdk
 SPDX:Apache-2.0
 
 == Copyright
+(no copyright notices found)
+
+--------------------------------- (separator) ----------------------------------
+
+== Dependency
+go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp
+
+== License Type
+SPDX:Apache-2.0
+
+== Copyright
 Copyright (C) 1991, 1999 Free Software Foundation, Inc.
 Copyright (C) 2013 Blake Mizerany
 Copyright (C) 2013-2015 Alexei Starovoitov <ast@kernel.org>
@@ -3597,32 +3333,13 @@ Copyright The OpenTelemetry Authors
 --------------------------------- (separator) ----------------------------------
 
 == Dependency
-go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp
-
-== License Type
-SPDX:Apache-2.0
-
-== Copyright
-Copyright (c) 2016-2017 Uber Technologies, Inc.
-Copyright (c) 2017 Uber Technologies, Inc.
-Copyright (c) 2021 The Jaeger Authors.
-Copyright 2014 gRPC authors.
-Copyright 2017, OpenCensus Authors
-Copyright 2023 The Go Authors. All rights reserved.
-Copyright The OpenTelemetry Authors
-
---------------------------------- (separator) ----------------------------------
-
-== Dependency
 go.opentelemetry.io/otel
 
 == License Type
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2009 The Go Authors. All rights reserved.
-Copyright 2022 The Go Authors. All rights reserved.
-Copyright The OpenTelemetry Authors
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3646,68 +3363,6 @@ go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc
 SPDX:Apache-2.0
 
 == Copyright
-+ GO_PKG=go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc:v1.35.0
-++ cut -d: -f1
-++ echo go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc:v1.35.0
-+ pkg=go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc
-++ cut -d: -f2
-++ echo go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc:v1.35.0
-+ pkg_version=v1.35.0
-+ [[ -z go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc ]]
-+ [[ -z v1.35.0 ]]
-+ pkg=go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc
-+ query=
-+ [[ v1.35.0 =~ ^v[0-9]+.[0-9]+.[0-9]+$ ]]
-+ query='curl -s https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc/@v/v1.35.0.info|jq -r '''.Origin.URL''''
-+ pkg_version=v1.35.0
-++ eval 'curl -s https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc/@v/v1.35.0.info|jq -r '''.Origin.URL''''
-+++ curl -s https://proxy.golang.org/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc/@v/v1.35.0.info
-+++ jq -r .Origin.URL
-+ pkg_github_url=https://github.com/open-telemetry/opentelemetry-go
-+ [[ https://github.com/open-telemetry/opentelemetry-go = 
-ull ]]
-+ [[ go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc =~ ^github.com ]]
-+ [[ -z https://github.com/open-telemetry/opentelemetry-go ]]
-+ [[ https://github.com/open-telemetry/opentelemetry-go = 
-ull ]]
-++ echo https://github.com/open-telemetry/opentelemetry-go
-++ sed 's|/v[0-9]+/*$||'
-+ pkg_github_url=https://github.com/open-telemetry/opentelemetry-go
-+ trimmed_dir=
-+ [[ https://github.com/open-telemetry/opentelemetry-go != h		ps://gi	hu.com ]]
-+ wget --spider --timeout=3 -q https://github.com/open-telemetry/opentelemetry-go
-+ break
-+ [[ https://github.com/open-telemetry/opentelemetry-go = h		ps://gi	hu.com ]]
-+ git clone https://github.com/open-telemetry/opentelemetry-go
-++ basename https://github.com/open-telemetry/opentelemetry-go .git
-+ repo_dir=opentelemetry-go
-+ cd opentelemetry-go
-++ find . -type d -name '' -print -quit
-+ subcomponent=
-+ [[ -n '' ]]
-++ cut -d: -f2
-++ uniq
-++ grep -rIE '^(s**|//|#)?s*Copyright( ©)?( [0-9]{4})? .+' --exclude-dir=vendor --exclude-dir=.git .
-++ sed 's/^[[:space:]#/*]+//'
-++ sort
-++ tr '
-' '
-'
-++ grep -vIE '^s*(*|//|#)?s*Copyrights*(()?(c|C|©)?())?s+([[|{|<]?(yyyy|[0-9]{4}|year)?[]|}|>]?)?s+([[|{|<]?(name of copyright owner|name of author)[]|}|>]?)?s*$'
-+ copyright_txt='Copyright 2009 The Go Authors. All rights reserved.
-Copyright 2022 The Go Authors. All rights reserved.
-Copyright The OpenTelemetry Authors
-'
-+ [[ -z Copyright 2009 The Go Authors. All rights reserved.
-Copyright 2022 The Go Authors. All rights reserved.
-Copyright The OpenTelemetry Authors
- ]]
-+ cd ..
-+ rm -rf ./opentelemetry-go
-+ echo Copyright 2009 The Go Authors. All rights 'reserved.
-Copyright' 2022 The Go Authors. All rights 'reserved.
-Copyright' The OpenTelemetry 'Authors
-'
 Copyright 2009 The Go Authors. All rights reserved.
 Copyright 2022 The Go Authors. All rights reserved.
 Copyright The OpenTelemetry Authors
@@ -3721,9 +3376,7 @@ go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2009 The Go Authors. All rights reserved.
-Copyright 2022 The Go Authors. All rights reserved.
-Copyright The OpenTelemetry Authors
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3734,77 +3387,7 @@ go.opentelemetry.io/otel/exporters/prometheus
 SPDX:Apache-2.0
 
 == Copyright
-+ GO_PKG=go.opentelemetry.io/otel/exporters/prometheus:v0.57.0
-++ echo go.opentelemetry.io/otel/exporters/prometheus:v0.57.0
-++ cut -d: -f1
-+ pkg=go.opentelemetry.io/otel/exporters/prometheus
-++ echo go.opentelemetry.io/otel/exporters/prometheus:v0.57.0
-++ cut -d: -f2
-+ pkg_version=v0.57.0
-+ [[ -z go.opentelemetry.io/otel/exporters/prometheus ]]
-+ [[ -z v0.57.0 ]]
-+ pkg=go.opentelemetry.io/otel/exporters/prometheus
-+ query=
-+ [[ v0.57.0 =~ ^v[0-9]+.[0-9]+.[0-9]+$ ]]
-+ query='curl -s https://proxy.golang.org/go.opentelemetry.io/otel/exporters/prometheus/@v/v0.57.0.info|jq -r '''.Origin.URL''''
-+ pkg_version=v0.57.0
-++ eval 'curl -s https://proxy.golang.org/go.opentelemetry.io/otel/exporters/prometheus/@v/v0.57.0.info|jq -r '''.Origin.URL''''
-+++ curl -s https://proxy.golang.org/go.opentelemetry.io/otel/exporters/prometheus/@v/v0.57.0.info
-+++ jq -r .Origin.URL
-+ pkg_github_url=https://github.com/open-telemetry/opentelemetry-go
-+ [[ https://github.com/open-telemetry/opentelemetry-go = 
-ull ]]
-+ [[ go.opentelemetry.io/otel/exporters/prometheus =~ ^github.com ]]
-+ [[ -z https://github.com/open-telemetry/opentelemetry-go ]]
-+ [[ https://github.com/open-telemetry/opentelemetry-go = 
-ull ]]
-++ sed 's|/v[0-9]+/*$||'
-++ echo https://github.com/open-telemetry/opentelemetry-go
-+ pkg_github_url=https://github.com/open-telemetry/opentelemetry-go
-+ trimmed_dir=
-+ [[ https://github.com/open-telemetry/opentelemetry-go != h		ps://gi	hu.com ]]
-+ wget --spider --timeout=3 -q https://github.com/open-telemetry/opentelemetry-go
-+ break
-+ [[ https://github.com/open-telemetry/opentelemetry-go = h		ps://gi	hu.com ]]
-+ git clone https://github.com/open-telemetry/opentelemetry-go
-++ basename https://github.com/open-telemetry/opentelemetry-go .git
-+ repo_dir=opentelemetry-go
-+ cd opentelemetry-go
-++ find . -type d -name '' -print -quit
-+ subcomponent=
-+ [[ -n '' ]]
-++ grep -rIE '^(s**|//|#)?s*Copyright( ©)?( [0-9]{4})? .+' --exclude-dir=vendor --exclude-dir=.git .
-++ sed 's/^[[:space:]#/*]+//'
-++ sort
-++ uniq
-++ cut -d: -f2
-++ grep -vIE '^s*(*|//|#)?s*Copyrights*(()?(c|C|©)?())?s+([[|{|<]?(yyyy|[0-9]{4}|year)?[]|}|>]?)?s+([[|{|<]?(name of copyright owner|name of author)[]|}|>]?)?s*$'
-++ tr '
-' '
-'
-+ copyright_txt='Copyright 2009 The Go Authors.
 Copyright 2009 The Go Authors. All rights reserved.
-Copyright 2011 The Go Authors. All rights reserved.
-Copyright 2022 The Go Authors. All rights reserved.
-Copyright The OpenTelemetry Authors
-'
-+ [[ -z Copyright 2009 The Go Authors.
-Copyright 2009 The Go Authors. All rights reserved.
-Copyright 2011 The Go Authors. All rights reserved.
-Copyright 2022 The Go Authors. All rights reserved.
-Copyright The OpenTelemetry Authors
- ]]
-+ cd ..
-+ rm -rf ./opentelemetry-go
-+ echo Copyright 2009 The Go 'Authors.
-Copyright' 2009 The Go Authors. All rights 'reserved.
-Copyright' 2011 The Go Authors. All rights 'reserved.
-Copyright' 2022 The Go Authors. All rights 'reserved.
-Copyright' The OpenTelemetry 'Authors
-'
-Copyright 2009 The Go Authors.
-Copyright 2009 The Go Authors. All rights reserved.
-Copyright 2011 The Go Authors. All rights reserved.
 Copyright 2022 The Go Authors. All rights reserved.
 Copyright The OpenTelemetry Authors
 
@@ -3817,9 +3400,7 @@ go.opentelemetry.io/otel/metric
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2009 The Go Authors. All rights reserved.
-Copyright 2022 The Go Authors. All rights reserved.
-Copyright The OpenTelemetry Authors
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3843,68 +3424,6 @@ go.opentelemetry.io/otel/sdk/metric
 SPDX:Apache-2.0
 
 == Copyright
-+ GO_PKG=go.opentelemetry.io/otel/sdk/metric:v1.35.0
-++ echo go.opentelemetry.io/otel/sdk/metric:v1.35.0
-++ cut -d: -f1
-+ pkg=go.opentelemetry.io/otel/sdk/metric
-++ echo go.opentelemetry.io/otel/sdk/metric:v1.35.0
-++ cut -d: -f2
-+ pkg_version=v1.35.0
-+ [[ -z go.opentelemetry.io/otel/sdk/metric ]]
-+ [[ -z v1.35.0 ]]
-+ pkg=go.opentelemetry.io/otel/sdk/metric
-+ query=
-+ [[ v1.35.0 =~ ^v[0-9]+.[0-9]+.[0-9]+$ ]]
-+ query='curl -s https://proxy.golang.org/go.opentelemetry.io/otel/sdk/metric/@v/v1.35.0.info|jq -r '''.Origin.URL''''
-+ pkg_version=v1.35.0
-++ eval 'curl -s https://proxy.golang.org/go.opentelemetry.io/otel/sdk/metric/@v/v1.35.0.info|jq -r '''.Origin.URL''''
-+++ curl -s https://proxy.golang.org/go.opentelemetry.io/otel/sdk/metric/@v/v1.35.0.info
-+++ jq -r .Origin.URL
-+ pkg_github_url=https://github.com/open-telemetry/opentelemetry-go
-+ [[ https://github.com/open-telemetry/opentelemetry-go = 
-ull ]]
-+ [[ go.opentelemetry.io/otel/sdk/metric =~ ^github.com ]]
-+ [[ -z https://github.com/open-telemetry/opentelemetry-go ]]
-+ [[ https://github.com/open-telemetry/opentelemetry-go = 
-ull ]]
-++ echo https://github.com/open-telemetry/opentelemetry-go
-++ sed 's|/v[0-9]+/*$||'
-+ pkg_github_url=https://github.com/open-telemetry/opentelemetry-go
-+ trimmed_dir=
-+ [[ https://github.com/open-telemetry/opentelemetry-go != h		ps://gi	hu.com ]]
-+ wget --spider --timeout=3 -q https://github.com/open-telemetry/opentelemetry-go
-+ break
-+ [[ https://github.com/open-telemetry/opentelemetry-go = h		ps://gi	hu.com ]]
-+ git clone https://github.com/open-telemetry/opentelemetry-go
-++ basename https://github.com/open-telemetry/opentelemetry-go .git
-+ repo_dir=opentelemetry-go
-+ cd opentelemetry-go
-++ find . -type d -name '' -print -quit
-+ subcomponent=
-+ [[ -n '' ]]
-++ sed 's/^[[:space:]#/*]+//'
-++ uniq
-++ cut -d: -f2
-++ sort
-++ tr '
-' '
-'
-++ grep -vIE '^s*(*|//|#)?s*Copyrights*(()?(c|C|©)?())?s+([[|{|<]?(yyyy|[0-9]{4}|year)?[]|}|>]?)?s+([[|{|<]?(name of copyright owner|name of author)[]|}|>]?)?s*$'
-++ grep -rIE '^(s**|//|#)?s*Copyright( ©)?( [0-9]{4})? .+' --exclude-dir=vendor --exclude-dir=.git .
-+ copyright_txt='Copyright 2009 The Go Authors. All rights reserved.
-Copyright 2022 The Go Authors. All rights reserved.
-Copyright The OpenTelemetry Authors
-'
-+ [[ -z Copyright 2009 The Go Authors. All rights reserved.
-Copyright 2022 The Go Authors. All rights reserved.
-Copyright The OpenTelemetry Authors
- ]]
-+ cd ..
-+ rm -rf ./opentelemetry-go
-+ echo Copyright 2009 The Go Authors. All rights 'reserved.
-Copyright' 2022 The Go Authors. All rights 'reserved.
-Copyright' The OpenTelemetry 'Authors
-'
 Copyright 2009 The Go Authors. All rights reserved.
 Copyright 2022 The Go Authors. All rights reserved.
 Copyright The OpenTelemetry Authors
@@ -3918,9 +3437,7 @@ go.opentelemetry.io/otel/trace
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2009 The Go Authors. All rights reserved.
-Copyright 2022 The Go Authors. All rights reserved.
-Copyright The OpenTelemetry Authors
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -4663,24 +4180,9 @@ gomodules.xyz/jsonpatch/v2
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2015 Matthew Baird mattbaird@gmail.com
-Copyright 2016 GitHub noreply@github.com
-Copyright 2016 Tom Michaud tom.michaud@gmail.com
-Copyright 2017 Clark Archer carcher@drillinginfo.com
-Copyright 2017 Darius Staisiunas darius@uber.com
-Copyright 2017 GitHub noreply@github.com
-Copyright 2017 Jaime Pillora dev@jpillora.com
-Copyright 2018 GitHub noreply@github.com
-Copyright 2018 tamal tamal@appscode.com
-Copyright 2019 GitHub noreply@github.com
-Copyright 2019 Tamal Saha tamal@appscode.com
-Copyright 2020 GitHub noreply@github.com
-Copyright 2021 GitHub noreply@github.com
-Copyright 2021 Tamal Saha tamal@appscode.com
-Copyright 2023 GitHub noreply@github.com
-Copyright 2023 John Howard howardjohn@google.com
-Copyright 2025 GitHub noreply@github.com
-Copyright 2025 Thomas Lacroix thomas.lacroix@ubisoft.com
+Copyright 2009 The Go Authors. All rights reserved.
+Copyright 2022 The Go Authors. All rights reserved.
+Copyright The OpenTelemetry Authors
 
 --------------------------------- (separator) ----------------------------------
 

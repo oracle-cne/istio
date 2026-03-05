@@ -1618,32 +1618,7 @@ github.com/hashicorp/go-multierror
 SPDX:MPL-2.0
 
 == Copyright
-Copyright 2014 Mitchell Hashimoto mitchell.hashimoto@gmail.com
-Copyright 2015 Max Nordlund max.nordlund@gmail.com
-Copyright 2015 Mitchell Hashimoto mitchell.hashimoto@gmail.com
-Copyright 2015 Mitchell Hashimoto xmitchx@gmail.com
-Copyright 2015 Paul Hinze phinze@phinze.com
-Copyright 2015 Ryan Uber ru@ryanuber.com
-Copyright 2016 David Tolnay dtolnay@gmail.com
-Copyright 2016 GitHub noreply@github.com
-Copyright 2016 Mitchell Hashimoto mitchell.hashimoto@gmail.com
-Copyright 2016 Seth Vargo sethvargo@gmail.com
-Copyright 2017 GitHub noreply@github.com
-Copyright 2018 Brian Flad bflad417@gmail.com
-Copyright 2018 French Ben frenchben@docker.com
-Copyright 2018 GitHub noreply@github.com
-Copyright 2018 Mitchell Hashimoto mitchell.hashimoto@gmail.com
-Copyright 2019 GitHub noreply@github.com
-Copyright 2019 Matthew Hooker mwhooker@gmail.com
-Copyright 2019 Michele mdeggies@gmail.com
-Copyright 2019 Nick Ethier nethier@hashicorp.com
-Copyright 2020 GitHub noreply@github.com
-Copyright 2020 Michael Golowka 72365+pcman312@users.noreply.github.com
-Copyright 2020 Mitchell Hashimoto mitchell.hashimoto@gmail.com
-Copyright 2021 GitHub noreply@github.com
-Copyright 2021 Matthew Hooker mwhooker@gmail.com
-Copyright 2021 Michele mdeggies@gmail.com
-Copyright 2021 Seth Vargo seth@sethvargo.com
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -1680,55 +1655,32 @@ github.com/hashicorp/hcl
 SPDX:MPL-2.0
 
 == Copyright
-Copyright 2014 Atin Malaviya amalaviy@akamai.com
-Copyright 2014 Emil Hessman emil@hessman.se
-Copyright 2014 Kale Worsley kale@worsley.co.nz
-Copyright 2014 Matt Hartzler matt@cryptopanic.org
 Copyright 2014 Mitchell Hashimoto mitchell.hashimoto@gmail.com
-Copyright 2014 Mitchell Hashimoto xmitchx@gmail.com
-Copyright 2014 Ryan Uber ru@ryanuber.com
-Copyright 2014 Sebastien Binet binet@cern.ch
-Copyright 2014 Seth Vargo sethvargo@users.noreply.github.com
-Copyright 2015 Derek Dowling me@derekdowling.com
-Copyright 2015 Eljas Alakulppi buzer@buzer.net
-Copyright 2015 Fatih Arslan ftharsln@gmail.com
-Copyright 2015 James Nugent james@jen20.com
-Copyright 2015 Matt matt.ho@gmail.com
+Copyright 2015 Max Nordlund max.nordlund@gmail.com
 Copyright 2015 Mitchell Hashimoto mitchell.hashimoto@gmail.com
 Copyright 2015 Mitchell Hashimoto xmitchx@gmail.com
 Copyright 2015 Paul Hinze phinze@phinze.com
-Copyright 2015 Sander van Harmelen sander@xanzy.io
-Copyright 2015 Seth Vargo sethvargo@gmail.com
-Copyright 2015 balexander-ot brad.alexander@otoy.com
-Copyright 2016 Artiom Diomin kron82@gmail.com
-Copyright 2016 Dan Carley dan.carley@gmail.com
-Copyright 2016 Drew Wells drew.wells00@gmail.com
-Copyright 2016 Etienne Baratte ebaratte@gmail.com
+Copyright 2015 Ryan Uber ru@ryanuber.com
+Copyright 2016 David Tolnay dtolnay@gmail.com
 Copyright 2016 GitHub noreply@github.com
-Copyright 2016 Herkermer Sherwood theherk@gmail.com
-Copyright 2016 James Bardin j.bardin@gmail.com
-Copyright 2016 James Nugent james@jen20.com
-Copyright 2016 Marius maerious@gmail.com
-Copyright 2016 Mark Pim j.mark.pim@gmail.com
-Copyright 2016 Merlin Gaillard merlin.gaillard@showmax.com
-Copyright 2016 Miquel Sabaté Solà msabate@suse.com
 Copyright 2016 Mitchell Hashimoto mitchell.hashimoto@gmail.com
-Copyright 2016 Mitchell Hashimoto xmitchx@gmail.com
-Copyright 2016 Paul Hinze phinze@phinze.com
-Copyright 2016 Robert Hencke robert.hencke@gmail.com
 Copyright 2016 Seth Vargo sethvargo@gmail.com
-Copyright 2016 Vladislav Rassokhin vladislav.rassokhin@jetbrains.com
-Copyright 2016 vishalnayak vishalnayakv@gmail.com
-Copyright 2017 Frank Schroeder frank.schroeder@gmail.com
 Copyright 2017 GitHub noreply@github.com
-Copyright 2017 Martin Atkins mart@degeneration.co.uk
-Copyright 2017 Mitchell Hashimoto mitchell.hashimoto@gmail.com
-Copyright 2017 Sean Chittenden sean@chittenden.org
-Copyright 2018 Florian Forster ff@octo.it
-Copyright 2018 Florian Forster octo@google.com
+Copyright 2018 Brian Flad bflad417@gmail.com
+Copyright 2018 French Ben frenchben@docker.com
 Copyright 2018 GitHub noreply@github.com
-Copyright 2018 Jeff Mitchell jeff@hashicorp.com
-Copyright 2018 Martin Atkins matkins@saymedia.com
+Copyright 2018 Mitchell Hashimoto mitchell.hashimoto@gmail.com
+Copyright 2019 GitHub noreply@github.com
+Copyright 2019 Matthew Hooker mwhooker@gmail.com
+Copyright 2019 Michele mdeggies@gmail.com
+Copyright 2019 Nick Ethier nethier@hashicorp.com
+Copyright 2020 GitHub noreply@github.com
+Copyright 2020 Michael Golowka 72365+pcman312@users.noreply.github.com
+Copyright 2020 Mitchell Hashimoto mitchell.hashimoto@gmail.com
+Copyright 2021 GitHub noreply@github.com
+Copyright 2021 Matthew Hooker mwhooker@gmail.com
+Copyright 2021 Michele mdeggies@gmail.com
+Copyright 2021 Seth Vargo seth@sethvargo.com
 
 --------------------------------- (separator) ----------------------------------
 

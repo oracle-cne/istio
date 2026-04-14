@@ -81,7 +81,7 @@ BuildRequires:  hostname
 BuildRequires:  helm
 
 %if "%{dist}" == ".el8"
-BuildRequires:  istio-proxy = %{version}-%{release}
+BuildRequires:  istio-proxy = %{version}
 %endif
 
 %if "%{dist}" == ".el7"

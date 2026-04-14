@@ -16,6 +16,7 @@ olcnePipeline(
   ],
   publishImage: true,
   platforms: ['ol8', 'ol9'],
+  extraOL8Rpms: [('istio-proxy-' + istio_version + '-1.el8')],
   yumOL8Repos: ['ol8_appstream', 'ol8_codeready_builder'],
   yumOL9Repos: ['ol9_appstream', 'ol9_codeready_builder', 'ol9_developer_EPEL'],
   architectures: ['x86_64', 'aarch64'],

@@ -80,10 +80,6 @@ BuildRequires:  python2
 BuildRequires:  hostname
 BuildRequires:  helm
 
-%if "%{dist}" == ".el8"
-BuildRequires:  istio-proxy
-%endif
-
 %if "%{dist}" == ".el7"
 Obsoletes:                  istio-pilot-discovery
 Obsoletes:                  istio-pilot-agent

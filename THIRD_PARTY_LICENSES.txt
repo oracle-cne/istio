@@ -2306,6 +2306,17 @@ github.com/hashicorp/go-multierror
 SPDX:MPL-2.0
 
 == Copyright
+(no copyright notices found)
+
+--------------------------------- (separator) ----------------------------------
+
+== Dependency
+github.com/hashicorp/go-version
+
+== License Type
+SPDX:MPL-2.0
+
+== Copyright
 Copyright 2014 Mitchell Hashimoto mitchell.hashimoto@gmail.com
 Copyright 2015 Max Nordlund max.nordlund@gmail.com
 Copyright 2015 Mitchell Hashimoto mitchell.hashimoto@gmail.com
@@ -2332,17 +2343,6 @@ Copyright 2021 GitHub noreply@github.com
 Copyright 2021 Matthew Hooker mwhooker@gmail.com
 Copyright 2021 Michele mdeggies@gmail.com
 Copyright 2021 Seth Vargo seth@sethvargo.com
-
---------------------------------- (separator) ----------------------------------
-
-== Dependency
-github.com/hashicorp/go-version
-
-== License Type
-SPDX:MPL-2.0
-
-== Copyright
-Copyright IBM Corp. 2014, 2025
 
 --------------------------------- (separator) ----------------------------------
 
@@ -2968,9 +2968,7 @@ github.com/modern-go/concurrent
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2018 GitHub noreply@github.com
-Copyright 2018 Tao Wen taowen@gmail.com
-Copyright 2018 kr1sten0 zhqy0807@gmail.com
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -2982,17 +2980,8 @@ SPDX:Apache-2.0
 
 == Copyright
 Copyright 2018 GitHub noreply@github.com
-Copyright 2018 Justin Santa Barbara justinsb@google.com
 Copyright 2018 Tao Wen taowen@gmail.com
-Copyright 2018 nextzhou nextzhou@gmail.com
-Copyright 2020 Aaron Simmons paleozogt@gmail.com
-Copyright 2020 GitHub noreply@github.com
-Copyright 2020 Mikko Ylinen mikko.ylinen@intel.com
-Copyright 2020 xueyuan zhangxueyuan@ayang.com
-Copyright 2021 GitHub noreply@github.com
-Copyright 2021 Tao Wen taowen@chengfayun.com
-Copyright 2024 Tonis Tiigi tonistiigi@gmail.com
-Copyright 2025 GitHub noreply@github.com
+Copyright 2018 kr1sten0 zhqy0807@gmail.com
 
 --------------------------------- (separator) ----------------------------------
 

@@ -192,7 +192,11 @@ mkdir -p %{istio_go_src}/ENVOY_BIN
 # Move envoy to where istio expects it to be.  Stub this
 # out for OL7 builds as envoy is only built for OL8
 %if "%{dist}" == ".el8"
+if [ -f /usr/local/bin/envoy ]; then
 cp /usr/local/bin/envoy %{istio_go_src}/ENVOY_BIN/
+else
+touch %{istio_go_src}/ENVOY_BIN/envoy
+fi
 cp %{SOURCE2} %{istio_go_src}/buildinfo
 %else
 touch %{istio_go_src}/ENVOY_BIN/envoy

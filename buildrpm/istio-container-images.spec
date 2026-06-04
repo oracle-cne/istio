@@ -29,12 +29,9 @@ such as Kubernetes, Mesos, etc.
 
 %build
 chmod +x ./oracle/build-istio-container-images.sh
-YUM_REPO=%{yum_repo} ./oracle/build-istio-container-images.sh \
-    --image-dir %{image_dir} \
-    --image-tag %{image_tag} \
-    --rpm-release %{istio_release} \
-    --rpm-version %{istio_version} \
-    --kubectl-version %{kubectl_version}
+build_image_args="--image-dir %{image_dir} --image-tag %{image_tag} --rpm-release %{istio_release} --rpm-version %{istio_version} --kubectl-version %{kubectl_version}"
+%{?yumrepoconfig:build_image_args="${build_image_args} --yum-repo-config-dir %{yumrepoconfig}"}
+YUM_REPO=%{yum_repo} ./oracle/build-istio-container-images.sh ${build_image_args}
 
 %install
 install -m 755 -d %{buildroot}/usr/local/share/istio

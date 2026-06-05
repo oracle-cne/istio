@@ -80,10 +80,6 @@ BuildRequires:  python2
 BuildRequires:  hostname
 BuildRequires:  helm
 
-%if "%{dist}" == ".el8"
-BuildRequires:  istio-proxy = %{version}
-%endif
-
 %if "%{dist}" == ".el7"
 Obsoletes:                  istio-pilot-discovery
 Obsoletes:                  istio-pilot-agent
@@ -194,9 +190,13 @@ tar xf %{SOURCE0} -C %{istio_go_src} --strip=1
 #proxy setup
 mkdir -p %{istio_go_src}/ENVOY_BIN
 # Move envoy to where istio expects it to be.  Stub this
-# out for OL7 builds as envoy is only built for OL8
+# out when the envoy binary is not available
 %if "%{dist}" == ".el8"
-cp /usr/local/bin/envoy %{istio_go_src}/ENVOY_BIN/
+if [ -x /usr/local/bin/envoy ]; then
+  cp /usr/local/bin/envoy %{istio_go_src}/ENVOY_BIN/
+else
+  touch %{istio_go_src}/ENVOY_BIN/envoy
+fi
 cp %{SOURCE2} %{istio_go_src}/buildinfo
 %else
 touch %{istio_go_src}/ENVOY_BIN/envoy

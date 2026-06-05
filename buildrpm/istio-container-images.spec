@@ -29,7 +29,8 @@ such as Kubernetes, Mesos, etc.
 
 %build
 chmod +x ./oracle/build-istio-container-images.sh
-YUM_REPO=%{yum_repo} ./oracle/build-istio-container-images.sh \
+YUM_REPO=%{yum_repo} \
+%{?yumrepoconfig:YUM_REPO_CONFIG=%{yumrepoconfig} }./oracle/build-istio-container-images.sh \
     --image-dir %{image_dir} \
     --image-tag %{image_tag} \
     --rpm-release %{istio_release} \

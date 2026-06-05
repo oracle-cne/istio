@@ -47,7 +47,9 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
-if [ -f "/etc/yum.repos.d/ol_artifacts.repo" ]; then
+if [ -n "${YUM_REPO_CONFIG:-}" ] && [ -d "${YUM_REPO_CONFIG}/yum.repos.d" ]; then
+    find "${YUM_REPO_CONFIG}/yum.repos.d" -maxdepth 1 -type f -name "*.repo" -exec cp -p {} ./ \;
+elif [ -f "/etc/yum.repos.d/ol_artifacts.repo" ]; then
     cp /etc/yum.repos.d/ol_artifacts.repo ./
 fi
 

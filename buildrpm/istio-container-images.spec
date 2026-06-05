@@ -29,6 +29,9 @@ such as Kubernetes, Mesos, etc.
 
 %build
 chmod +x ./oracle/build-istio-container-images.sh
+if [ -d "%{?yumrepoconfig}/yum.repos.d" ]; then
+    find "%{?yumrepoconfig}/yum.repos.d" -maxdepth 1 -type f -name '*.repo' -exec cp -p '{}' ./ ';'
+fi
 YUM_REPO=%{yum_repo} ./oracle/build-istio-container-images.sh \
     --image-dir %{image_dir} \
     --image-tag %{image_tag} \

@@ -47,9 +47,11 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
-if [ -f "/etc/yum.repos.d/ol_artifacts.repo" ]; then
-    cp /etc/yum.repos.d/ol_artifacts.repo ./
-fi
+for REPO_DIR in /etc/yum.repos.d /etc/yum.repos.internal.d; do
+    if [ -d "${REPO_DIR}" ]; then
+        find "${REPO_DIR}" -maxdepth 1 -type f -name "*.repo" -exec cp -p {} ./ \;
+    fi
+done
 
 RPM_V=${RPM_VERSION}-${RPM_RELEASE}
 REGISTRY=container-registry.oracle.com/olcne

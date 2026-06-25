@@ -1,0 +1,6 @@
+istio.io/istio/pkg/version.buildVersion=1.29.5
+istio.io/istio/pkg/version.buildGitRevision=1.29.5
+istio.io/istio/pkg/version.buildUser=oracle
+istio.io/istio/pkg/version.buildHost=oracle
+istio.io/istio/pkg/version.buildDockerHub=container-registry.oracle.com/olcne
+istio.io/istio/pkg/version.buildStatus=Clean

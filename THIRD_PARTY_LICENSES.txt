@@ -175,10 +175,7 @@ SPDX:Apache-2.0
 
 == Copyright
 Copyright 2014 Google LLC
-Copyright 2016 Google LLC
-Copyright 2018 Google LLC
 Copyright 2021 Google LLC
-Copyright 2022 Google LLC
 Copyright 2024 Google LLC
 
 --------------------------------- (separator) ----------------------------------
@@ -425,7 +422,6 @@ github.com/chai2010/gettext-go
 SPDX:BSD-3-Clause--modified-by-Google
 
 == Copyright
-Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 Copyright 2013 <chaishushan{AT}gmail.com>. All rights reserved.
 Copyright 2013 ChaiShushan <chaishushan{AT}gmail.com>. All rights reserved.
 Copyright 2020 ChaiShushan <chaishushan{AT}gmail.com>. All rights reserved.
@@ -497,8 +493,6 @@ SPDX:Apache-2.0
 Copyright 2014-2016 CNI authors
 Copyright 2015 CNI authors
 Copyright 2016 CNI authors
-Copyright 2017 CNI authors
-Copyright 2018 CNI authors
 Copyright 2019 CNI authors
 Copyright 2022 CNI authors
 
@@ -511,22 +505,7 @@ github.com/containernetworking/plugins
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2014 CNI authors
-Copyright 2015 CNI authors
 Copyright 2015-2017 CNI authors
-Copyright 2015-2018 CNI authors
-Copyright 2016 CNI authors
-Copyright 2016-2018 CNI authors
-Copyright 2017 CNI authors
-Copyright 2017-2018 CNI authors
-Copyright 2017-2020 CNI authors
-Copyright 2018 CNI authors
-Copyright 2019 CNI authors
-Copyright 2020 CNI authors
-Copyright 2021 CNI authors
-Copyright 2022 Arista Networks
-Copyright 2022 CNI authors
-Copyright 2023 CNI authors
 
 --------------------------------- (separator) ----------------------------------
 
@@ -1020,16 +999,6 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
 Copyright (C) 2014-2015 Docker Inc & Go Authors. All rights reserved.
 Copyright (C) 2017-2024 SUSE LLC. All rights reserved.
 Copyright (C) 2017-2025 SUSE LLC. All rights reserved.
-Copyright (C) 2021, 2022 The Go Authors. All rights reserved.
-Copyright (C) 2022 The Go Authors. All rights reserved.
-Copyright (C) 2024 SUSE LLC. All rights reserved.
-Copyright (C) 2024-2025 Aleksa Sarai <cyphar@cyphar.com>
-Copyright (C) 2024-2025 SUSE LLC
-Copyright (C) 2024-2025 SUSE LLC. All rights reserved.
-Copyright (C) 2025 Aleksa Sarai <cyphar@cyphar.com>
-Copyright (C) 2025 SUSE LLC
-Copyright (C) 2025 SUSE LLC. All rights reserved.
-Copyright 2022 The Go Authors. All rights reserved.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -1058,7 +1027,6 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 == Copyright
 Copyright (c) 2012-2016 Dave Collins <dave@davec.name>
-Copyright (c) 2013 Dave Collins <dave@davec.name>
 Copyright (c) 2013-2016 Dave Collins <dave@davec.name>
 Copyright (c) 2015-2016 Dave Collins <dave@davec.name>
 
@@ -1071,14 +1039,8 @@ github.com/docker/cli
 SPDX:Apache-2.0
 
 == Copyright
-Copyright (c) 2016, Daniel Martí <mvdan@mvdan.cc>
-Copyright (c) 2016, Daniel Martí. All rights reserved.
-Copyright (c) 2021, Daniel Martí <mvdan@mvdan.cc>
-Copyright 2009 The Go Authors. All rights reserved.
-Copyright 2010 The Go Authors. All rights reserved.
 Copyright 2012-2017 Docker, Inc.
 Copyright 2013-2017 Docker, Inc.
-Copyright 2018 The Go Authors. All rights reserved.
 
 == Notices
 Docker
@@ -1296,9 +1258,7 @@ Copyright 2010 The Go Authors. All rights reserved.
 Copyright 2011 The Go Authors. All rights reserved.
 Copyright 2013 The Go Authors. All rights reserved.
 Copyright 2016 The Go Authors. All rights reserved.
-Copyright 2018 The Go Authors. All rights reserved.
 Copyright 2019 The Go Authors. All rights reserved.
-Copyright 2021 The Go Authors. All rights reserved.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -1364,7 +1324,6 @@ github.com/fsnotify/fsnotify
 SPDX:BSD-3-Clause--modified-by-Google
 
 == Copyright
-Copyright (c) 2013, Patrick Mezard
 Copyright © 2012 The Go Authors. All rights reserved.
 Copyright © fsnotify Authors. All rights reserved.
 
@@ -1404,14 +1363,9 @@ SPDX:Apache-2.0
 Copyright (c) 2012 The Go Authors. All rights reserved.
 Copyright 2010 The Go Authors.  All rights reserved.
 Copyright 2010 The Go Authors. All rights reserved.
-Copyright 2011 The Go Authors.  All rights reserved.
 Copyright 2011 The Go Authors. All rights reserved.
 Copyright 2014 Square Inc.
-Copyright 2016 Square, Inc.
-Copyright 2016 Zbigniew Mandziejewicz
-Copyright 2017 Square Inc.
 Copyright 2018 Square Inc.
-Copyright 2019 Square Inc.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -1425,7 +1379,6 @@ SPDX:Apache-2.0
 Copyright 2019 The logr Authors.
 Copyright 2020 The logr Authors.
 Copyright 2021 The logr Authors.
-Copyright 2022 The logr Authors.
 Copyright 2023 The logr Authors.
 
 --------------------------------- (separator) ----------------------------------
@@ -1438,7 +1391,6 @@ SPDX:Apache-2.0
 
 == Copyright
 Copyright 2019 The logr Authors.
-Copyright 2021 The logr Authors.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -1636,7 +1588,6 @@ github.com/go-openapi/swag/mangling
 SPDX:Apache-2.0
 
 == Copyright
-Copyright (c) 2015-2025 go-swagger maintainers
 Copyright 2015-2025 go-swagger maintainers
 
 --------------------------------- (separator) ----------------------------------
@@ -1716,18 +1667,11 @@ SPDX:BSD-3-Clause--modified-by-Google
 
 == Copyright
 Copyright (c) 2013, The GoGo Authors. All rights reserved.
-Copyright (c) 2015, The GoGo Authors.  rights reserved.
-Copyright (c) 2015, The GoGo Authors. All rights reserved.
 Copyright (c) 2016, The GoGo Authors. All rights reserved.
-Copyright (c) 2017, The GoGo Authors. All rights reserved.
 Copyright (c) 2018, The GoGo Authors. All rights reserved.
-Copyright (c) 2019, The GoGo Authors. All rights reserved.
-Copyright 2010 The Go Authors.
 Copyright 2010 The Go Authors.  All rights reserved.
 Copyright 2011 The Go Authors.  All rights reserved.
 Copyright 2012 The Go Authors.  All rights reserved.
-Copyright 2013 The Go Authors.  All rights reserved.
-Copyright 2014 The Go Authors.  All rights reserved.
 Copyright 2015 The Go Authors.  All rights reserved.
 Copyright 2016 The Go Authors.  All rights reserved.
 Copyright 2017 The Go Authors.  All rights reserved.
@@ -1744,15 +1688,9 @@ SPDX:BSD-3-Clause--modified-by-Google
 == Copyright
 Copyright 2010 The Go Authors.  All rights reserved.
 Copyright 2010 The Go Authors. All rights reserved.
-Copyright 2011 The Go Authors. All rights reserved.
-Copyright 2014 The Go Authors. All rights reserved.
-Copyright 2015 The Go Authors.  All rights reserved.
 Copyright 2015 The Go Authors. All rights reserved.
-Copyright 2016 The Go Authors. All rights reserved.
-Copyright 2017 The Go Authors. All rights reserved.
 Copyright 2018 The Go Authors. All rights reserved.
 Copyright 2019 The Go Authors. All rights reserved.
-Copyright 2020 The Go Authors. All rights reserved.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -2032,8 +1970,6 @@ SPDX:Apache-2.0
 
 == Copyright
 Copyright 2017 Google LLC. All Rights Reserved.
-Copyright 2017-2025, Google LLC.
-Copyright 2019 Google LLC. All Rights Reserved.
 Copyright 2020 Google LLC. All Rights Reserved.
 Copyright 2022 Google LLC. All Rights Reserved.
 
@@ -2082,13 +2018,8 @@ github.com/google/pprof
 SPDX:Apache-2.0
 
 == Copyright
-Copyright (C) 2020 Free Software Foundation, Inc.",
-Copyright 2009-2017 Andrea Leofreddi <a.leofreddi@vleo.net>. All rights reserved.
 Copyright 2014 Google Inc. All Rights Reserved.
 Copyright 2016 Google Inc. All Rights Reserved.
-Copyright 2017 Google Inc. All Rights Reserved.
-Copyright 2018 Google Inc. All Rights Reserved.
-Copyright 2022 Google Inc. All Rights Reserved.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -2127,8 +2058,6 @@ SPDX:BSD-3-Clause--modified-by-Google
 
 == Copyright
 Copyright (c) 2023 The Gorilla Authors. All rights reserved.
-Copyright 2009 The Go Authors. All rights reserved.
-Copyright 2011 Gorilla Authors. All rights reserved.
 Copyright 2012 The Gorilla Authors. All rights reserved.
 
 --------------------------------- (separator) ----------------------------------
@@ -2140,15 +2069,11 @@ github.com/gorilla/websocket
 SPDX:BSD-2-Clause
 
 == Copyright
-Copyright (c) 2008-2009 Bjoern Hoehrmann <bjoern@hoehrmann.de>
 Copyright (c) 2013 The Gorilla WebSocket Authors. All rights reserved.
 Copyright 2013 The Gorilla WebSocket Authors. All rights reserved.
-Copyright 2014 The Gorilla WebSocket Authors. All rights reserved.
-Copyright 2015 The Gorilla WebSocket Authors. All rights reserved.
 Copyright 2016 The Gorilla WebSocket Authors. All rights reserved.  Use of
 Copyright 2017 The Gorilla WebSocket Authors. All rights reserved.
 Copyright 2019 The Gorilla WebSocket Authors. All rights reserved.
-Copyright 2025 The Gorilla WebSocket Authors. All rights reserved.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -2161,7 +2086,6 @@ SPDX:BSD-3-Clause--modified-by-Google
 == Copyright
 Copyright (c) 2009 The Go Authors. All rights reserved.
 Copyright 2009 The Go Authors. All rights reserved.
-Copyright 2010 The Go Authors. All rights reserved.
 Copyright 2011 The Go Authors. All rights reserved.
 Copyright 2012 The Go Authors. All rights reserved.
 Copyright 2013 The Go Authors. All rights reserved.
@@ -2189,8 +2113,6 @@ SPDX:Apache-2.0
 
 == Copyright
 Copyright (c) The go-grpc-middleware Authors.
-Copyright 2017 David Ackroyd. All Rights Reserved.
-Copyright 2022 The Go Authors. All rights reserved.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -2243,7 +2165,6 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 == Copyright
 Copyright (c) 2015, Gengo, Inc.
 Copyright 2009 The Go Authors. All rights reserved.
-Copyright 2010, 2019 The Go Authors.  All rights reserved.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -2667,47 +2588,19 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 == Copyright
 Copyright (c) 2011 The Snappy-Go Authors. All rights reserved.
-Copyright (c) 2011 The Snappy-Go Authors. All rights reserved.\n"+
 Copyright (c) 2012 The Go Authors. All rights reserved.
 Copyright (c) 2013, Yann Collet, released under BSD License.
 Copyright (c) 2015 Klaus Post
-Copyright (c) 2015 Klaus Post, released under MIT License. See LICENSE file.
-Copyright (c) 2015, Pierre Curto
 Copyright (c) 2016 Caleb Spare
 Copyright (c) 2016 Caleb Spare.
-Copyright (c) 2016 Evan Huus
 Copyright (c) 2019 Klaus Post. All rights reserved.
-Copyright (c) 2019+ Klaus Post. All rights reserved.
-Copyright (c) 2019+ Klaus Post. All rights reserved.\n\n")
-Copyright (c) 2021 Klaus Post. All rights reserved.
-Copyright (c) 2022 Klaus Post. All rights reserved.
-Copyright (c) 2022+ Klaus Post. All rights reserved.
-Copyright (c) 2023 Klaus Post
-Copyright (c) 2023 Klaus Post. All rights reserved.
-Copyright (c) 2023"))
-Copyright (c) 2023".
-Copyright (c) 2023+ Klaus Post. All rights reserved.
-Copyright (c) 2024+ Klaus Post. All rights reserved.
-Copyright 2009 The Go Authors. All rights reserved.
-Copyright 2010 The Go Authors. All rights reserved.
-Copyright 2011 The Go Authors. All rights reserved.
 Copyright 2011 The Snappy-Go Authors. All rights reserved.
-Copyright 2012 The Go Authors. All rights reserved.
-Copyright 2014 The Go Authors. All rights reserved.
-Copyright 2015 The Go Authors. All rights reserved.
-Copyright 2016 The Go Authors. All rights reserved.
 Copyright 2016 The Snappy-Go Authors. All rights reserved.
 Copyright 2016 The filepathx Authors
 Copyright 2016-2017 The New York Times Company
-Copyright 2017 The Go Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style\n// license that can be found in the LICENSE file.\n\npackage ), uintptr(unsafe.Pointer(_p1)), 0)\n\tif e1 != 0 {\n\t\terr = errnoErr(e1)\n\t}\n\treturn\n}\n\n// THIS FILE IS GENERATED BY THE COMMAND AT THE TOP; DO NOT EDIT\n\nfunc Sync() (err error) {\n\t_, _, e1 := SyscDLINK       = 0x10\n\tMOVEFILE_FAIL_IF_NOT")
 Copyright 2018 Klaus Post. All rights reserved.
-Copyright 2019 The Go Authors. All rights reserved.
 Copyright 2019+ Klaus Post. All rights reserved.
 Copyright 2020+ Klaus Post. All rights reserved.
-Copyright 2021 The Go Authors. All rights reserved.
-Copyright 2022"
-Copyright 2023 Google LLC
-Copyright 2023+ Klaus Post. All rights reserved.
 Copyright 2025+ Klaus Post. All rights reserved.
 
 --------------------------------- (separator) ----------------------------------
@@ -2788,7 +2681,6 @@ SPDX:BSD-3-Clause--modified-by-Google
 == Copyright
 Copyright (c) 2009 The Go Authors. All rights reserved.
 Copyright 2009 The Go Authors. All rights reserved.
-Copyright 2012 The Go Authors. All rights reserved.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -2876,9 +2768,7 @@ github.com/moby/buildkit
 SPDX:Apache-2.0
 
 == Copyright
-Copyright (C) 2014-2015 Docker Inc & Go Authors. All rights reserved.
-Copyright (C) 2017-2024 SUSE LLC. All rights reserved.
-Copyright (c) 2013, The GoGo Authors. All rights reserved.
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -2937,7 +2827,13 @@ github.com/modern-go/concurrent
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright (C) 2004, 2006 The Linux Foundation and its contributors.
+Copyright (C) 2014-2015 Docker Inc (no copyright notices found) Go Authors. All rights reserved.
+Copyright (C) 2017-2024 SUSE LLC. All rights reserved.
+Copyright (c) 2013, The GoGo Authors. All rights reserved.
+Copyright The BuildKit Authors.
+Copyright The OpenTelemetry Authors
+Copyright The containerd Authors.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -2948,9 +2844,7 @@ github.com/modern-go/reflect2
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2018 GitHub noreply@github.com
-Copyright 2018 Tao Wen taowen@gmail.com
-Copyright 2018 kr1sten0 zhqy0807@gmail.com
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3061,7 +2955,6 @@ SPDX:Apache-2.0
 Copyright 2016 Docker, Inc.
 Copyright 2017 Docker, Inc.
 Copyright 2019, 2020 OCI Contributors
-Copyright 2020, 2020 OCI Contributors
 Copyright © 2016 Docker, Inc.
 Copyright © 2019, 2020 OCI Contributors
 
@@ -3074,11 +2967,9 @@ github.com/opencontainers/image-spec
 SPDX:Apache-2.0
 
 == Copyright
-Copyright (C) 2004, 2006 The Linux Foundation and its contributors.
 Copyright 2016 The Linux Foundation
 Copyright 2016 The Linux Foundation.
 Copyright 2016-2022 The Linux Foundation
-Copyright 2017 The Linux Foundation
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3089,10 +2980,7 @@ github.com/openshift/api
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2018 The Kubernetes Authors.
 Copyright 2020 Red Hat, Inc.
-Copyright 2021 The Kubernetes Authors.
-Copyright 2022 Red Hat, Inc.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3136,7 +3024,6 @@ github.com/pires/go-proxyproto
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2015 The Go Authors. All rights reserved.
 Copyright 2016 Paulo Pires
 
 --------------------------------- (separator) ----------------------------------
@@ -3160,14 +3047,8 @@ SPDX:BSD-3-Clause--modified-by-Google
 
 == Copyright
 Copyright (c) 2013, The GoGo Authors. All rights reserved.
-Copyright (c) 2014 Bob Matcuk
 Copyright (c) 2018 The Go Authors. All rights reserved.
-Copyright (c) 2021 PlanetScale Inc. All rights reserved.
 Copyright (c) 2021, PlanetScale Inc. All rights reserved.
-Copyright (c) 2022 PlanetScale Inc. All rights reserved.
-Copyright 2008 Google Inc.  All rights reserved.
-Copyright 2019 The Go Authors. All rights reserved.
-Copyright 2020 gRPC authors.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3219,7 +3100,6 @@ SPDX:Apache-2.0
 
 == Copyright
 Copyright (c) 2013 The Go Authors. All rights reserved.
-Copyright (c) 2013, The Prometheus Authors
 Copyright (c) 2015 Björn Rabenstein
 Copyright 2010 The Go Authors
 Copyright 2012-2015 The Prometheus Authors
@@ -3291,16 +3171,9 @@ SPDX:Apache-2.0
 Copyright 2013 The Prometheus Authors
 Copyright 2014 The Prometheus Authors
 Copyright 2015 The Prometheus Authors
-Copyright 2016 The Prometheus Authors
-Copyright 2018 The Prometheus Authors
-Copyright 2019 The Prometheus Authors
 Copyright 2020 The Prometheus Authors
-Copyright 2020 The Prometheus-operator Authors
-Copyright 2021 The Prometheus Authors
-Copyright 2022 The Prometheus Authors
 Copyright 2023 The Prometheus Authors
 Copyright 2024 The Prometheus Authors
-Copyright 2025 The Prometheus Authors
 
 == Notices
 Common libraries shared by Prometheus Go components.
@@ -3355,8 +3228,6 @@ Copyright (c) 2009 The Go Authors
 Copyright (c) 2009 The Go Authors. All rights reserved.
 Copyright (c) 2013, Samuel Stauffer <samuel@descolada.com>
 Copyright (c) 2013, The GoGo Authors.
-Copyright (c) 2014 Ben Johnson
-Copyright (c) 2014 The strutil Authors. All rights reserved.
 Copyright (c) 2015,2016 Damian Gryski <damian@gryski.com>
 Copyright (c) 2021 Vitaly Rtishchev
 Copyright (c) Microsoft Corporation and other contributors
@@ -3372,14 +3243,11 @@ Copyright 2012 Suryandaru Triandana
 Copyright 2012-2015 The Prometheus Authors
 Copyright 2013 Google Inc.
 Copyright 2013 Matt T. Proud
-Copyright 2013 The Go Authors
 Copyright 2014 Bass Jobsen @bassjobsen
 Copyright 2015 Jonathan Peterson (@Eonasdan)
-Copyright 2015 The Prometheus Authors
 Copyright 2017 The Prometheus Authors
 Copyright 2018 The Prometheus Authors
 Copyright 2024 The Prometheus Authors
-Copyright 2025 The Prometheus Authors
 
 == Notices
 The Prometheus systems and service monitoring server
@@ -3574,7 +3442,18 @@ github.com/santhosh-tekuri/jsonschema/v6
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright 2018 GitHub noreply@github.com
+Copyright 2018 Justin Santa Barbara justinsb@google.com
+Copyright 2018 Tao Wen taowen@gmail.com
+Copyright 2018 nextzhou nextzhou@gmail.com
+Copyright 2020 Aaron Simmons paleozogt@gmail.com
+Copyright 2020 GitHub noreply@github.com
+Copyright 2020 Mikko Ylinen mikko.ylinen@intel.com
+Copyright 2020 xueyuan zhangxueyuan@ayang.com
+Copyright 2021 GitHub noreply@github.com
+Copyright 2021 Tao Wen taowen@chengfayun.com
+Copyright 2024 Tonis Tiigi tonistiigi@gmail.com
+Copyright 2025 GitHub noreply@github.com
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3666,8 +3545,6 @@ SPDX:BSD-3-Clause--modified-by-Google
 Copyright (c) 2012 Alex Ogier. All rights reserved.
 Copyright (c) 2012 The Go Authors. All rights reserved.
 Copyright 2009 The Go Authors. All rights reserved.
-Copyright 2010 The Go Authors.  All rights reserved.
-Copyright 2012 The Go Authors. All rights reserved.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3680,7 +3557,6 @@ SPDX:MIT
 == Copyright
 Copyright (c) 2014 Steve Francia
 Copyright © 2014 Steve Francia <spf@spf13.com>.
-Copyright © 2016 Steve Francia <spf@spf13.com>.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3691,10 +3567,7 @@ github.com/spiffe/go-spiffe/v2
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2024 GitHub noreply@github.com
-Copyright 2024 Santhosh Kumar Tekuri santhosh.tekuri@gmail.com
-Copyright 2025 GitHub noreply@github.com
-Copyright 2025 Santhosh Kumar Tekuri santhosh.tekuri@gmail.com
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3809,7 +3682,39 @@ go.opentelemetry.io/auto/sdk
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright 2017 Agustín Martínez Fayó amartinezfayo@users.noreply.github.com
+Copyright 2017 David Langhorst dave@scytale.io
+Copyright 2017 Emiliano Berenbaum emiliano@scytale.io
+Copyright 2017 Emmanuel Odeke emm.odeke@gmail.com
+Copyright 2017 Evan Gilman evan@scytale.io
+Copyright 2017 GitHub noreply@github.com
+Copyright 2017 walmav madhu@scytale.io
+Copyright 2018 Andrew Harding azdagron@gmail.com
+Copyright 2018 GitHub noreply@github.com
+Copyright 2019 GitHub noreply@github.com
+Copyright 2019 Josh Kline jkline@uber.com
+Copyright 2019 Marcos G. Yedro marcosyedro@gmail.com
+Copyright 2019 Mat Byczkowski mbyczkowski@squareup.com
+Copyright 2020 Agustín Martínez Fayó amartinezfayo@gmail.com
+Copyright 2020 Andres Gomez Coronel andres@scytale.io
+Copyright 2020 Andrew Harding aharding@vmware.com
+Copyright 2020 Andrew Harding andrew.harding@hpe.com
+Copyright 2020 Andrew Harding azdagron@gmail.com
+Copyright 2020 GitHub noreply@github.com
+Copyright 2020 Joe Williams joe.williams@github.com
+Copyright 2020 Kyle Anderson kylea@netflix.com
+Copyright 2020 Marcos G. Yedro marcosyedro@gmail.com
+Copyright 2020 Marcos Yacob marcos@scytale.io
+Copyright 2020 Mariano Kunzi kunzi.mariano@gmail.com
+Copyright 2020 Peyton Walters pwalters18@bloomberg.net
+Copyright 2021 Andrew Harding aharding@vmware.com
+Copyright 2021 GitHub noreply@github.com
+Copyright 2021 Samuel Waggoner swaggoner@vmware.com
+Copyright 2022 GitHub noreply@github.com
+Copyright 2023 GitHub noreply@github.com
+Copyright 2024 Andrew Harding azdagron@gmail.com
+Copyright 2024 GitHub noreply@github.com
+Copyright 2025 GitHub noreply@github.com
 
 --------------------------------- (separator) ----------------------------------
 
@@ -6261,7 +6166,6 @@ SPDX:Apache-2.0
 
 == Copyright
 Copyright 2019, OpenTelemetry Authors
-Copyright 2020, OpenTelemetry Authors
 
 --------------------------------- (separator) ----------------------------------
 
@@ -6273,7 +6177,6 @@ SPDX:MIT
 
 == Copyright
 Copyright (c) 2016 Uber Technologies, Inc.
-Copyright (c) 2016-2020 Uber Technologies, Inc.
 Copyright (c) 2020 Uber Technologies, Inc.
 Copyright (c) 2020-2022 Uber Technologies, Inc.
 Copyright (c) 2020-2023 Uber Technologies, Inc.
@@ -6290,12 +6193,8 @@ go.uber.org/multierr
 SPDX:MIT
 
 == Copyright
-Copyright (c) 2017 Uber Technologies, Inc.
 Copyright (c) 2017-2021 Uber Technologies, Inc.
 Copyright (c) 2017-2023 Uber Technologies, Inc.
-Copyright (c) 2020 Uber Technologies, Inc.
-Copyright (c) 2021 Uber Technologies, Inc.
-Copyright (c) 2023 Uber Technologies, Inc.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -6307,11 +6206,9 @@ SPDX:MIT
 
 == Copyright
 Copyright (c) 2016 Uber Technologies, Inc.
-Copyright (c) 2016, 2017 Uber Technologies, Inc.
 Copyright (c) 2016-2022 Uber Technologies, Inc.
 Copyright (c) 2016-2024 Uber Technologies, Inc.
 Copyright (c) 2017 Uber Technologies, Inc.
-Copyright (c) 2018 Uber Technologies, Inc.
 Copyright (c) 2020 Uber Technologies, Inc.
 Copyright (c) 2021 Uber Technologies, Inc.
 Copyright (c) 2022 Uber Technologies, Inc.
@@ -6467,22 +6364,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 == Copyright
 Copyright 2009 The Go Authors.
-Copyright 2009 The Go Authors. All rights reserved.
 Copyright 2010 The Go Authors. All rights reserved.
 Copyright 2011 The Go Authors. All rights reserved.
 Copyright 2012 The Go Authors. All rights reserved.
-Copyright 2013 The Go Authors. All rights reserved.
-Copyright 2014 The Go Authors. All rights reserved.
-Copyright 2015 The Go Authors. All rights reserved.
 Copyright 2016 The Go Authors. All rights reserved.
-Copyright 2017 The Go Authors. All rights reserved.
 Copyright 2018 The Go Authors. All rights reserved.
 Copyright 2019 The Go Authors. All rights reserved.
-Copyright 2021 The Go Authors. All rights reserved.
-Copyright 2023 The Go Authors. All rights reserved.
-Copyright 2024 The Go Authors. All rights reserved.
 Copyright 2025 The Go Authors. All rights reserved.
-Copyright 2026 The Go Authors. All rights reserved.
 
 == Patents
 Additional IP Rights Grant (Patents)
@@ -6548,23 +6436,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 == Copyright
 Copyright 2009 The Go Authors.
-Copyright 2009 The Go Authors. All rights reserved.
-Copyright 2011 The Go Authors. All rights reserved.
-Copyright 2012 The Go Authors.  All rights reserved.
-Copyright 2012 The Go Authors. All rights reserved.
-Copyright 2013 The Go Authors. All rights reserved.
-Copyright 2014 The Go Authors.  All rights reserved.
-Copyright 2015 The Go Authors. All rights reserved.
-Copyright 2016 The Go Authors. All rights reserved.
-Copyright 2017 The Go Authors. All rights reserved.
-Copyright 2018 The Go Authors. All rights reserved.
-Copyright 2019 The Go Authors. All rights reserved.
-Copyright 2020 The Go Authors. All rights reserved.
 Copyright 2021 The Go Authors. All rights reserved.
 Copyright 2022 The Go Authors. All rights reserved.
-Copyright 2023 The Go Authors. All rights reserved.
-Copyright 2024 The Go Authors. All rights reserved.
-Copyright 2025 The Go Authors. All rights reserved.
 
 == Patents
 Additional IP Rights Grant (Patents)
@@ -6643,7 +6516,6 @@ Copyright 2018 The Go Authors. All rights reserved.
 Copyright 2019 The Go Authors. All rights reserved.
 Copyright 2020 The Go Authors. All rights reserved.
 Copyright 2021 The Go Authors. All rights reserved.
-Copyright 2022 The Go Authors. All rights reserved.
 Copyright 2023 The Go Authors. All rights reserved.
 Copyright 2024 The Go Authors. All rights reserved.
 Copyright 2025 The Go Authors. All rights reserved.
@@ -6715,13 +6587,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 Copyright 2009 The Go Authors.
 Copyright 2014 The Go Authors. All rights reserved.
 Copyright 2015 The Go Authors. All rights reserved.
-Copyright 2015 The oauth2 Authors. All rights reserved.
-Copyright 2016 The Go Authors. All rights reserved.
 Copyright 2017 The Go Authors. All rights reserved.
-Copyright 2017 The oauth2 Authors. All rights reserved.
 Copyright 2018 The Go Authors. All rights reserved.
-Copyright 2018 The oauth2 Authors. All rights reserved.
-Copyright 2019 The Go Authors. All rights reserved.
 Copyright 2020 The Go Authors. All rights reserved.
 Copyright 2021 The Go Authors. All rights reserved.
 Copyright 2022 The Go Authors. All rights reserved.
@@ -6770,7 +6637,6 @@ Copyright 2009 The Go Authors.
 Copyright 2013 The Go Authors. All rights reserved.
 Copyright 2016 The Go Authors. All rights reserved.
 Copyright 2017 The Go Authors. All rights reserved.
-Copyright 2019 The Go Authors. All rights reserved.
 
 == Patents
 Additional IP Rights Grant (Patents)
@@ -6845,7 +6711,6 @@ Copyright 2013 The Go Authors. All rights reserved.
 Copyright 2014 The Go Authors. All rights reserved.
 Copyright 2015 The Go Authors. All rights reserved.
 Copyright 2016 The Go Authors. All rights reserved.
-Copyright 2017 The Go Authors. All right reserved.
 Copyright 2017 The Go Authors. All rights reserved.
 Copyright 2018 The Go Authors. All rights reserved.
 Copyright 2019 The Go Authors. All rights reserved.
@@ -6990,17 +6855,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 == Copyright
 Copyright 2009 The Go Authors.
-Copyright 2009 The Go Authors. All rights reserved.
 Copyright 2011 The Go Authors. All rights reserved.
-Copyright 2012 The Go Authors. All rights reserved.
 Copyright 2013 The Go Authors. All rights reserved.
 Copyright 2014 The Go Authors. All rights reserved.
 Copyright 2015 The Go Authors. All rights reserved.
 Copyright 2016 The Go Authors. All rights reserved.
 Copyright 2017 The Go Authors. All rights reserved.
 Copyright 2018 The Go Authors. All rights reserved.
-Copyright 2019 The Go Authors. All rights reserved.
-Copyright 2021 The Go Authors. All rights reserved.
 
 == Patents
 Additional IP Rights Grant (Patents)
@@ -7103,58 +6964,7 @@ gomodules.xyz/jsonpatch/v2
 SPDX:Apache-2.0
 
 == Copyright
-Copyright (C) 1991, 1999 Free Software Foundation, Inc.
-Copyright (C) 2013 Blake Mizerany
-Copyright (C) 2014-2019, Matt Butcher and Matt Farina
-Copyright (c) 2006-2010 Kirill Simonov
-Copyright (c) 2006-2011 Kirill Simonov
-Copyright (c) 2009 The Go Authors. All rights reserved.
-Copyright (c) 2009,2014 Google Inc. All rights reserved.
-Copyright (c) 2011, Open Knowledge Foundation Ltd.
-Copyright (c) 2011-2019 Canonical Ltd
-Copyright (c) 2012 Péter Surányi. Portions Copyright (c) 2009 The Go
-Copyright (c) 2012 The Go Authors. All rights reserved.
-Copyright (c) 2012,2013 Ernest Micklei
-Copyright (c) 2012-2016 Dave Collins <dave@davec.name>
-Copyright (c) 2013 The Go Authors. All rights reserved.
-Copyright (c) 2013, The GoGo Authors. All rights reserved.
-Copyright (c) 2014 Cenk Altı
-Copyright (c) 2014 Sam Ghods
-Copyright (c) 2014, Evan Phoenix
-Copyright (c) 2015 The Libbpf Authors. All rights reserved.
-Copyright (c) 2015, Dave Cheney <dave@cheney.net>
-Copyright (c) 2015, Gengo, Inc.
-Copyright (c) 2016 Caleb Spare
-Copyright (c) 2016 Mail.Ru Group
-Copyright (c) 2016 json-iterator
-Copyright (c) 2017 Nathan Sweet
-Copyright (c) 2017 The Go Authors. All rights reserved.
-Copyright (c) 2017-2021 Uber Technologies, Inc.
-Copyright (c) 2018 The Go Authors. All rights reserved.
-Copyright (c) 2018, 2019 Cloudflare
-Copyright (c) 2019 Authors of Cilium
-Copyright (c) 2019 Josh Bleecher Snyder
-Copyright (c) 2019 Montgomery Edwards⁴⁴⁸ and Faye Amacker
-Copyright (c) 2019-present Faye Amacker
-Copyright (c) 2020 Bruno Scheufler
-Copyright (c) 2020 The Go Authors. All rights reserved.
-Copyright 2009 The Go Authors.
-Copyright 2010 The Go Authors
-Copyright 2010 The Go Authors. All rights reserved.
-Copyright 2011-2016 Canonical Ltd.
-Copyright 2012-2015 The Prometheus Authors
-Copyright 2013-2015 Blake Mizerany, Björn Rabenstein
-Copyright 2014 The gofuzz Authors
-Copyright 2014 gRPC authors.
-Copyright 2014-2015 Stripe, Inc.
-Copyright 2014-2015 The Prometheus Authors
-Copyright 2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-Copyright 2015 The Go Authors.
-Copyright 2015 The Prometheus Authors
-Copyright 2023 The Go Authors. All rights reserved.
-Copyright 2025 The Kubernetes Authors
-Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
-Copyright The OpenTelemetry Authors
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -7191,7 +7001,6 @@ SPDX:Apache-2.0
 Copyright 2014 gRPC authors.
 Copyright 2015 The gRPC Authors
 Copyright 2015 gRPC authors.
-Copyright 2015-2016 gRPC authors.
 Copyright 2016 The gRPC Authors
 Copyright 2016 gRPC authors.
 Copyright 2017 gRPC authors.
@@ -7235,15 +7044,11 @@ SPDX:BSD-3-Clause--modified-by-Google
 Copyright (c) 2018 The Go Authors. All rights reserved.
 Copyright 2008 Google Inc.  All rights reserved.
 Copyright 2018 The Go Authors. All rights reserved.
-Copyright 2018 The Go Authors. All rights reserved.",
 Copyright 2019 The Go Authors. All rights reserved.
-Copyright 2019 The Go Authors. All rights reserved.",
 Copyright 2020 The Go Authors. All rights reserved.
-Copyright 2021 The Go Authors. All rights reserved.
 Copyright 2022 The Go Authors. All rights reserved.
 Copyright 2023 Google Inc.  All rights reserved.
 Copyright 2023 The Go Authors. All rights reserved.
-Copyright 2024 Google Inc.  All rights reserved.
 Copyright 2024 The Go Authors. All rights reserved.
 Copyright 2025 The Go Authors. All rights reserved.
 
@@ -7452,14 +7257,8 @@ helm.sh/helm/v3
 SPDX:Apache-2.0
 
 == Copyright
-Copyright (c) for portions of fs.go are held by The Go Authors, 2016 and are provided under
-Copyright (c) for portions of fs_test.go are held by The Go Authors, 2016 and are provided under
-Copyright (c) for portions of rename.go are held by The Go Authors, 2016 and are provided under
-Copyright (c) for portions of rename_windows.go are held by The Go Authors, 2016 and are provided under
 Copyright (c) for portions of walk.go are held by The Go Authors, 2009 and are
-Copyright (c) for portions of walk_test.go are held by The Go Authors, 2009 and are
 Copyright 2016 The Kubernetes Authors All Rights Reserved
-Copyright 2016 The Kubernetes Authors.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -7470,9 +7269,6 @@ istio.io/api
 SPDX:Apache-2.0
 
 == Copyright
-Copyright (c) 2018 The Go Authors. All rights reserved.
-Copyright 2009 The Go Authors.
-Copyright 2010 The Go Authors.  All rights reserved.
 Copyright 2017 Istio Authors
 Copyright 2017-2018 Istio Authors
 Copyright 2018 Istio Authors
@@ -7490,31 +7286,24 @@ istio.io/client-go
 SPDX:Apache-2.0
 
 == Copyright
-Copyright (c) 2006-2010 Kirill Simonov
-Copyright (c) 2006-2011 Kirill Simonov
-Copyright (c) 2009 The Go Authors. All rights reserved.
-Copyright (c) 2009,2014 Google Inc. All rights reserved.
-Copyright (c) 2011, Open Knowledge Foundation Ltd.
-Copyright (c) 2011-2019 Canonical Ltd
-Copyright (c) 2012 Alex Ogier. All rights reserved.
-Copyright (c) 2012 Péter Surányi. Portions Copyright (c) 2009 The Go
-Copyright (c) 2012 The Go Authors. All rights reserved.
-Copyright (c) 2012,2013 Ernest Micklei
-Copyright (c) 2012-2016 Dave Collins <dave@davec.name>
-Copyright (c) 2013, Patrick Mezard
-Copyright (c) 2014 Alex Saskevich
-Copyright (c) 2014 Sam Ghods
-Copyright (c) 2014, Evan Phoenix
-Copyright (c) 2016 json-iterator
-Copyright (c) 2018 The Go Authors. All rights reserved.
-Copyright (c) 2019 Montgomery Edwards⁴⁴⁸ and Faye Amacker
-Copyright (c) 2019-present Faye Amacker
-Copyright (c) 2020 The Go Authors. All rights reserved.
-Copyright 2009 The Go Authors.
-Copyright 2010 The Go Authors.  All rights reserved.
-Copyright 2014 The gofuzz Authors
-Copyright 2019 Istio Authors
-Copyright 2025 The Kubernetes Authors
+Copyright 2015 Matthew Baird mattbaird@gmail.com
+Copyright 2016 GitHub noreply@github.com
+Copyright 2016 Tom Michaud tom.michaud@gmail.com
+Copyright 2017 Clark Archer carcher@drillinginfo.com
+Copyright 2017 Darius Staisiunas darius@uber.com
+Copyright 2017 GitHub noreply@github.com
+Copyright 2017 Jaime Pillora dev@jpillora.com
+Copyright 2018 GitHub noreply@github.com
+Copyright 2018 tamal tamal@appscode.com
+Copyright 2019 GitHub noreply@github.com
+Copyright 2019 Tamal Saha tamal@appscode.com
+Copyright 2020 GitHub noreply@github.com
+Copyright 2021 GitHub noreply@github.com
+Copyright 2021 Tamal Saha tamal@appscode.com
+Copyright 2023 GitHub noreply@github.com
+Copyright 2023 John Howard howardjohn@google.com
+Copyright 2025 GitHub noreply@github.com
+Copyright 2025 Thomas Lacroix thomas.lacroix@ubisoft.com
 
 --------------------------------- (separator) ----------------------------------
 
@@ -7546,16 +7335,12 @@ k8s.io/apiextensions-apiserver
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2016 The Kubernetes Authors.
 Copyright 2017 The Kubernetes Authors.
-Copyright 2018 The Kubernetes Authors.
 Copyright 2019 The Kubernetes Authors.
 Copyright 2020 The Kubernetes Authors.
 Copyright 2021 The Kubernetes Authors.
 Copyright 2022 The Kubernetes Authors.
 Copyright 2023 The Kubernetes Authors.
-Copyright 2024 The Kubernetes Authors.
-Copyright 2025 The Kubernetes Authors.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -7592,7 +7377,6 @@ SPDX:Apache-2.0
 
 == Copyright
 Copyright 2014 The Kubernetes Authors.
-Copyright 2015 The Kubernetes Authors.
 Copyright 2016 The Kubernetes Authors.
 Copyright 2017 The Kubernetes Authors.
 Copyright 2018 The Kubernetes Authors.
@@ -7614,7 +7398,6 @@ SPDX:Apache-2.0
 
 == Copyright
 Copyright 2014 The Kubernetes Authors.
-Copyright 2016 The Kubernetes Authors.
 Copyright 2017 The Kubernetes Authors.
 Copyright 2018 The Kubernetes Authors.
 Copyright 2019 The Kubernetes Authors.
@@ -7657,12 +7440,10 @@ SPDX:Apache-2.0
 
 == Copyright
 Copyright 2014 The Kubernetes Authors.
-Copyright 2015 The Kubernetes Authors.
 Copyright 2016 The Kubernetes Authors.
 Copyright 2017 The Kubernetes Authors.
 Copyright 2018 The Kubernetes Authors.
 Copyright 2019 The Kubernetes Authors.
-Copyright 2020 The Kubernetes Authors.
 Copyright 2021 The Kubernetes Authors.
 Copyright 2022 The Kubernetes Authors.
 Copyright 2023 The Kubernetes Authors.
@@ -7678,16 +7459,8 @@ k8s.io/component-helpers
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2015 The Kubernetes Authors.
-Copyright 2016 The Kubernetes Authors.
-Copyright 2017 The Kubernetes Authors.
-Copyright 2018 The Kubernetes Authors.
-Copyright 2019 The Kubernetes Authors.
 Copyright 2020 The Kubernetes Authors.
-Copyright 2021 The Kubernetes Authors.
-Copyright 2023 The Kubernetes Authors.
 Copyright 2024 The Kubernetes Authors.
-Copyright 2025 The Kubernetes Authors.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -7700,14 +7473,9 @@ SPDX:Apache-2.0
 == Copyright
 Copyright 2013 Google Inc. All Rights Reserved.
 Copyright 2014 The Kubernetes Authors.
-Copyright 2019 The Kubernetes Authors.
-Copyright 2020 Intel Corporation.
-Copyright 2020 The Kubernetes Authors.
 Copyright 2021 The Kubernetes Authors.
 Copyright 2022 The Kubernetes Authors.
 Copyright 2023 The Kubernetes Authors.
-Copyright 2025 The Kubernetes Authors.
-Copyright 2026 The Kubernetes Authors.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -7724,18 +7492,13 @@ Copyright (c) 2020 The Go Authors. All rights reserved.
 Copyright 2015 go-swagger maintainers
 Copyright 2016 The Kubernetes Authors.
 Copyright 2017 The Kubernetes Authors.
-Copyright 2017 go-swagger maintainers
-Copyright 2018 The Kubernetes Authors.
-Copyright 2019 The Kubernetes Authors.
 Copyright 2020 The Go Authors. All rights reserved.
-Copyright 2020 The Kubernetes Authors.
 Copyright 2021 The Go Authors. All rights reserved.
 Copyright 2021 The Kubernetes Authors.
 Copyright 2022 The Go Authors. All rights reserved.
 Copyright 2022 The Kubernetes Authors.
 Copyright 2023 The Kubernetes Authors.
 Copyright 2024 go-swagger maintainers
-Copyright 2025 The Kubernetes Authors.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -7751,12 +7514,8 @@ Copyright 2015 The Kubernetes Authors.
 Copyright 2016 The Kubernetes Authors.
 Copyright 2017 The Kubernetes Authors.
 Copyright 2018 The Kubernetes Authors.
-Copyright 2019 The Kubernetes Authors.
-Copyright 2020 The Kubernetes Authors.
 Copyright 2021 The Kubernetes Authors.
 Copyright 2022 The Kubernetes Authors.
-Copyright 2023 The Kubernetes Authors.
-Copyright 2024 The Kubernetes Authors.
 Copyright 2025 The Kubernetes Authors.
 
 --------------------------------- (separator) ----------------------------------
@@ -7768,17 +7527,14 @@ k8s.io/utils
 SPDX:Apache-2.0
 
 == Copyright
-Copyright (c) 2009 The Go Authors. All rights reserved.
 Copyright (c) 2012 The Go Authors. All rights reserved.
 Copyright 2009 The Go Authors. All rights reserved.
-Copyright 2010 The Go Authors. All rights reserved.
 Copyright 2013 Google Inc.
 Copyright 2014 The Kubernetes Authors.
 Copyright 2015 The Kubernetes Authors.
 Copyright 2016 The Kubernetes Authors.
 Copyright 2017 The Kubernetes Authors.
 Copyright 2018 The Kubernetes Authors.
-Copyright 2019 The Kubernetes Authors.
 Copyright 2020 The Kubernetes Authors.
 Copyright 2021 The Kubernetes Authors.
 Copyright 2022 The Kubernetes Authors.
@@ -7807,15 +7563,11 @@ sigs.k8s.io/controller-runtime
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2014 The Kubernetes Authors.
-Copyright 2016 The Kubernetes Authors.
 Copyright 2017 The Kubernetes Authors.
 Copyright 2018 The Kubernetes Authors.
-Copyright 2018 The Kubernetes authors.
 Copyright 2019 The Kubernetes Authors.
 Copyright 2020 The Kubernetes Authors.
 Copyright 2021 The Kubernetes Authors.
-Copyright 2022 The Kubernetes Authors.
 Copyright 2023 The Kubernetes Authors.
 Copyright 2024 The Kubernetes Authors.
 Copyright 2025 The Kubernetes Authors.
@@ -7829,7 +7581,6 @@ sigs.k8s.io/gateway-api
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2019 The Kubernetes Authors.
 Copyright 2020 The Kubernetes Authors
 Copyright 2020 The Kubernetes Authors.
 Copyright 2021 The Kubernetes Authors.
@@ -7847,8 +7598,6 @@ sigs.k8s.io/gateway-api-inference-extension
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2023 The Kubernetes Authors.
-Copyright 2024 The Kubernetes Authors.
 Copyright 2025 The Kubernetes Authors.
 
 --------------------------------- (separator) ----------------------------------
@@ -8106,9 +7855,7 @@ Copyright 2010 The Go Authors. All rights reserved.
 Copyright 2011 The Go Authors. All rights reserved.
 Copyright 2013 The Go Authors. All rights reserved.
 Copyright 2016 The Go Authors. All rights reserved.
-Copyright 2018 The Go Authors. All rights reserved.
 Copyright 2019 The Go Authors. All rights reserved.
-Copyright 2021 The Go Authors. All rights reserved.
 Copyright 2021 The Kubernetes Authors.
 
 --------------------------------- (separator) ----------------------------------
@@ -8121,7 +7868,6 @@ SPDX:Apache-2.0
 
 == Copyright
 Copyright 2023 The Kubernetes Authors.
-Copyright 2024 The Kubernetes Authors.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -8136,7 +7882,6 @@ Copyright 2019 The Kubernetes Authors.
 Copyright 2020 The Kubernetes Authors.
 Copyright 2021 The Kubernetes Authors.
 Copyright 2022 The Kubernetes Authors.
-Copyright 2023 The Kubernetes Authors.
 Copyright 2024 The Kubernetes Authors.
 
 --------------------------------- (separator) ----------------------------------
@@ -8151,7 +7896,6 @@ SPDX:Apache-2.0
 Copyright 2014 The Kubernetes Authors.
 Copyright 2015 The Kubernetes Authors.
 Copyright 2016 The Kubernetes Authors.
-Copyright 2018 The Kubernetes Authors.
 Copyright 2019 The Kubernetes Authors.
 Copyright 2020 The Kubernetes Authors.
 Copyright 2021 The Kubernetes Authors.
@@ -8166,7 +7910,6 @@ sigs.k8s.io/mcs-api
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2019 The Kubernetes Authors.
 Copyright 2020 The Kubernetes Authors.
 
 --------------------------------- (separator) ----------------------------------
@@ -8223,8 +7966,6 @@ SPDX:Apache-2.0
 Copyright 2018 The Kubernetes Authors.
 Copyright 2019 The Kubernetes Authors.
 Copyright 2020 The Kubernetes Authors.
-Copyright 2023 The Kubernetes Authors.
-Copyright 2025 The Kubernetes Authors.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -8554,8 +8295,6 @@ Copyright (c) 2012 The Go Authors. All rights reserved.
 Copyright (c) 2014 Sam Ghods
 Copyright 2013 The Go Authors. All rights reserved.
 Copyright 2021 The Kubernetes Authors.
-Copyright 2022 The Kubernetes Authors.
-Copyright 2023 The Kubernetes Authors.
 Copyright 2025 The Kubernetes Authors.
 
 ----------------------------------- Licenses -----------------------------------

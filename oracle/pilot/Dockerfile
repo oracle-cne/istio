@@ -33,8 +33,6 @@ RUN /bin/ln -s /etc/pki/tls/cert.pem /cacert.pem
 RUN mkdir -p /tmp/
 WORKDIR /
 
-# "runAsUser: 1337" was removed in 1.20:
-# https://linux-git.oraclecorp.com/OLCNE/istio/istio/-/blob/oracle/release/1.19.5/manifests/charts/istio-control/istio-discovery/templates/deployment.yaml#L191
 USER 1337:1337
 
 ENTRYPOINT [ "/usr/local/bin/pilot-discovery" ]

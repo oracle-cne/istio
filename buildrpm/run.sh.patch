@@ -11,11 +11,13 @@ index 4a2ebc94c6..86bb67ef77 100755
 
  WD=$(dirname "$0")
  WD=$(cd "$WD"; pwd)
-@@ -45,7 +45,6 @@ read -ra DOCKER_RUN_OPTIONS <<< "${DOCKER_RUN_OPTIONS:-}"
+@@ -45,9 +45,8 @@ read -ra DOCKER_RUN_OPTIONS <<< "${DOCKER_RUN_OPTIONS:-}"
  "${CONTAINER_CLI}" run \
      --rm \
      "${DOCKER_RUN_OPTIONS[@]}" \
 -    --init \
      --sig-proxy=true \
+     --cap-add=SYS_ADMIN \
      ${DOCKER_SOCKET_MOUNT:--v /var/run/docker.sock:/var/run/docker.sock} \
+     -e DOCKER_HOST=${DOCKER_SOCKET_HOST:-unix:///var/run/docker.sock} \
      $CONTAINER_OPTIONS \

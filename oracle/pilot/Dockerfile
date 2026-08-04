@@ -6,10 +6,8 @@ FROM container-registry.oracle.com/os/oraclelinux:8-slim
 
 ARG VERSION
 ARG APP_NAME=pilot-discovery
-ARG REPO_NAME=ol8_addons
 
-COPY *.repo /etc/yum.repos.d/
-RUN microdnf install -y --enablerepo=${REPO_NAME} istio-${VERSION} istio-${APP_NAME}-${VERSION}
+RUN microdnf install -y istio-${VERSION} istio-${APP_NAME}-${VERSION}
 
 RUN test -d /LICENSES || ln -s /usr/share/licenses /LICENSES
 ADD LICENSE /LICENSES/${APP_NAME}-${VERSION}/LICENSE

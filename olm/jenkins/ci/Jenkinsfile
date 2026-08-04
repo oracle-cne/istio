@@ -20,7 +20,6 @@ olcnePipeline(
   yumOL9Repos: ['ol9_appstream', 'ol9_codeready_builder', 'ol9_developer_EPEL'],
   architectures: ['x86_64', 'aarch64'],
   builderEphemeralRequest: '25G',
-  macros: ['yum_repo': env.BRANCH_NAME ==~ 'oracle/release/' ? 'olcne_stable' : 'olcne_incubator'],
   customPlatformStages: [
     customPlatformSteps: [
       ol8: [container: [enabled: true ], buildContainerRpms: [enabled: true ]],

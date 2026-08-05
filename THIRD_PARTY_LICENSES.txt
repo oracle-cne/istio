@@ -1494,14 +1494,7 @@ github.com/hashicorp/errwrap
 SPDX:MPL-2.0
 
 == Copyright
-Copyright 2014 Andrew Martin andrew.martin@lovestockleaf.com
-Copyright 2014 Mitchell Hashimoto mitchell.hashimoto@gmail.com
-Copyright 2014 Mitchell Hashimoto xmitchx@gmail.com
-Copyright 2018 GitHub noreply@github.com
-Copyright 2018 Matthew Leon ml@matthewleon.com
-Copyright 2018 Mitchell Hashimoto mitchell.hashimoto@gmail.com
-Copyright 2020 Daniel Nephin dnephin@gmail.com
-Copyright 2020 GitHub noreply@github.com
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -1512,7 +1505,14 @@ github.com/hashicorp/go-multierror
 SPDX:MPL-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright 2014 Andrew Martin andrew.martin@lovestockleaf.com
+Copyright 2014 Mitchell Hashimoto mitchell.hashimoto@gmail.com
+Copyright 2014 Mitchell Hashimoto xmitchx@gmail.com
+Copyright 2018 GitHub noreply@github.com
+Copyright 2018 Matthew Leon ml@matthewleon.com
+Copyright 2018 Mitchell Hashimoto mitchell.hashimoto@gmail.com
+Copyright 2020 Daniel Nephin dnephin@gmail.com
+Copyright 2020 GitHub noreply@github.com
 
 --------------------------------- (separator) ----------------------------------
 
@@ -1549,32 +1549,7 @@ github.com/hashicorp/hcl
 SPDX:MPL-2.0
 
 == Copyright
-Copyright 2014 Mitchell Hashimoto mitchell.hashimoto@gmail.com
-Copyright 2015 Max Nordlund max.nordlund@gmail.com
-Copyright 2015 Mitchell Hashimoto mitchell.hashimoto@gmail.com
-Copyright 2015 Mitchell Hashimoto xmitchx@gmail.com
-Copyright 2015 Paul Hinze phinze@phinze.com
-Copyright 2015 Ryan Uber ru@ryanuber.com
-Copyright 2016 David Tolnay dtolnay@gmail.com
-Copyright 2016 GitHub noreply@github.com
-Copyright 2016 Mitchell Hashimoto mitchell.hashimoto@gmail.com
-Copyright 2016 Seth Vargo sethvargo@gmail.com
-Copyright 2017 GitHub noreply@github.com
-Copyright 2018 Brian Flad bflad417@gmail.com
-Copyright 2018 French Ben frenchben@docker.com
-Copyright 2018 GitHub noreply@github.com
-Copyright 2018 Mitchell Hashimoto mitchell.hashimoto@gmail.com
-Copyright 2019 GitHub noreply@github.com
-Copyright 2019 Matthew Hooker mwhooker@gmail.com
-Copyright 2019 Michele mdeggies@gmail.com
-Copyright 2019 Nick Ethier nethier@hashicorp.com
-Copyright 2020 GitHub noreply@github.com
-Copyright 2020 Michael Golowka 72365+pcman312@users.noreply.github.com
-Copyright 2020 Mitchell Hashimoto mitchell.hashimoto@gmail.com
-Copyright 2021 GitHub noreply@github.com
-Copyright 2021 Matthew Hooker mwhooker@gmail.com
-Copyright 2021 Michele mdeggies@gmail.com
-Copyright 2021 Seth Vargo seth@sethvargo.com
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -2181,7 +2156,55 @@ github.com/moby/buildkit
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright 2014 Atin Malaviya amalaviy@akamai.com
+Copyright 2014 Emil Hessman emil@hessman.se
+Copyright 2014 Kale Worsley kale@worsley.co.nz
+Copyright 2014 Matt Hartzler matt@cryptopanic.org
+Copyright 2014 Mitchell Hashimoto mitchell.hashimoto@gmail.com
+Copyright 2014 Mitchell Hashimoto xmitchx@gmail.com
+Copyright 2014 Ryan Uber ru@ryanuber.com
+Copyright 2014 Sebastien Binet binet@cern.ch
+Copyright 2014 Seth Vargo sethvargo@users.noreply.github.com
+Copyright 2015 Derek Dowling me@derekdowling.com
+Copyright 2015 Eljas Alakulppi buzer@buzer.net
+Copyright 2015 Fatih Arslan ftharsln@gmail.com
+Copyright 2015 James Nugent james@jen20.com
+Copyright 2015 Matt matt.ho@gmail.com
+Copyright 2015 Mitchell Hashimoto mitchell.hashimoto@gmail.com
+Copyright 2015 Mitchell Hashimoto xmitchx@gmail.com
+Copyright 2015 Paul Hinze phinze@phinze.com
+Copyright 2015 Sander van Harmelen sander@xanzy.io
+Copyright 2015 Seth Vargo sethvargo@gmail.com
+Copyright 2015 balexander-ot brad.alexander@otoy.com
+Copyright 2016 Artiom Diomin kron82@gmail.com
+Copyright 2016 Dan Carley dan.carley@gmail.com
+Copyright 2016 Drew Wells drew.wells00@gmail.com
+Copyright 2016 Etienne Baratte ebaratte@gmail.com
+Copyright 2016 GitHub noreply@github.com
+Copyright 2016 Herkermer Sherwood theherk@gmail.com
+Copyright 2016 James Bardin j.bardin@gmail.com
+Copyright 2016 James Nugent james@jen20.com
+Copyright 2016 Marius maerious@gmail.com
+Copyright 2016 Mark Pim j.mark.pim@gmail.com
+Copyright 2016 Merlin Gaillard merlin.gaillard@showmax.com
+Copyright 2016 Miquel Sabaté Solà msabate@suse.com
+Copyright 2016 Mitchell Hashimoto mitchell.hashimoto@gmail.com
+Copyright 2016 Mitchell Hashimoto xmitchx@gmail.com
+Copyright 2016 Paul Hinze phinze@phinze.com
+Copyright 2016 Robert Hencke robert.hencke@gmail.com
+Copyright 2016 Seth Vargo sethvargo@gmail.com
+Copyright 2016 Vladislav Rassokhin vladislav.rassokhin@jetbrains.com
+Copyright 2016 vishalnayak vishalnayakv@gmail.com
+Copyright 2017 Frank Schroeder frank.schroeder@gmail.com
+Copyright 2017 GitHub noreply@github.com
+Copyright 2017 Martin Atkins mart@degeneration.co.uk
+Copyright 2017 Mitchell Hashimoto mitchell.hashimoto@gmail.com
+Copyright 2017 Sean Chittenden sean@chittenden.org
+Copyright 2018 Florian Forster ff@octo.it
+Copyright 2018 Florian Forster octo@google.com
+Copyright 2018 GitHub noreply@github.com
+Copyright 2018 Jeff Mitchell jeff@hashicorp.com
+Copyright 2018 Martin Atkins matkins@saymedia.com
 
 --------------------------------- (separator) ----------------------------------
 
@@ -2226,13 +2249,7 @@ github.com/modern-go/concurrent
 SPDX:Apache-2.0
 
 == Copyright
-Copyright (C) 2004, 2006 The Linux Foundation and its contributors.
-Copyright (C) 2014-2015 Docker Inc (no copyright notices found) Go Authors. All rights reserved.
-Copyright (C) 2017-2024 SUSE LLC. All rights reserved.
-Copyright (c) 2013, The GoGo Authors. All rights reserved.
-Copyright The BuildKit Authors.
-Copyright The OpenTelemetry Authors
-Copyright The containerd Authors.
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -2243,7 +2260,9 @@ github.com/modern-go/reflect2
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright 2018 GitHub noreply@github.com
+Copyright 2018 Tao Wen taowen@gmail.com
+Copyright 2018 kr1sten0 zhqy0807@gmail.com
 
 --------------------------------- (separator) ----------------------------------
 
@@ -2832,16 +2851,7 @@ github.com/santhosh-tekuri/jsonschema/v6
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2018 GitHub noreply@github.com
-Copyright 2018 Justin Santa Barbara justinsb@google.com
-Copyright 2018 Tao Wen taowen@gmail.com
-Copyright 2018 nextzhou nextzhou@gmail.com
-Copyright 2020 Aaron Simmons paleozogt@gmail.com
-Copyright 2020 GitHub noreply@github.com
-Copyright 2020 Mikko Ylinen mikko.ylinen@intel.com
-Copyright 2020 xueyuan zhangxueyuan@ayang.com
-Copyright 2021 GitHub noreply@github.com
-Copyright 2021 Tao Wen taowen@chengfayun.com
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3062,7 +3072,10 @@ go.opentelemetry.io/auto/sdk
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright 2024 GitHub noreply@github.com
+Copyright 2024 Santhosh Kumar Tekuri santhosh.tekuri@gmail.com
+Copyright 2025 GitHub noreply@github.com
+Copyright 2025 Santhosh Kumar Tekuri santhosh.tekuri@gmail.com
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3073,48 +3086,7 @@ go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp
 SPDX:Apache-2.0
 
 == Copyright
-Copyright (C) 1991, 1999 Free Software Foundation, Inc.
-Copyright (C) 2013 Blake Mizerany
-Copyright (C) 2013-2015 Alexei Starovoitov <ast@kernel.org>
-Copyright (C) 2014-2019, Matt Butcher and Matt Farina
-Copyright (C) 2015 Huawei Inc.
-Copyright (C) 2015 Wang Nan <wangnan0@huawei.com>
-Copyright (C) 2021 Facebook
-Copyright (c) 2009 The Go Authors. All rights reserved.
-Copyright (c) 2009,2014 Google Inc. All rights reserved.
-Copyright (c) 2011 The Snappy-Go Authors. All rights reserved.
-Copyright (c) 2011, Open Knowledge Foundation Ltd.
-Copyright (c) 2012 The Go Authors. All rights reserved.
-Copyright (c) 2013 The Go Authors. All rights reserved.
-Copyright (c) 2013, The GoGo Authors. All rights reserved.
-Copyright (c) 2014 Cenk Altı
-Copyright (c) 2015 Klaus Post
-Copyright (c) 2015 The Libbpf Authors. All rights reserved.
-Copyright (c) 2015, Dave Cheney <dave@cheney.net>
-Copyright (c) 2015, Gengo, Inc.
-Copyright (c) 2016 Caleb Spare
-Copyright (c) 2016 json-iterator
-Copyright (c) 2017 Nathan Sweet
-Copyright (c) 2017-2021 Uber Technologies, Inc.
-Copyright (c) 2018 - 2019 Intel Corporation.
-Copyright (c) 2018 The Go Authors. All rights reserved.
-Copyright (c) 2018, 2019 Cloudflare
-Copyright (c) 2019 Authors of Cilium
-Copyright (c) 2019 Facebook
-Copyright (c) 2019 Klaus Post. All rights reserved.
-Copyright 2009 The Go Authors.
-Copyright 2010 The Go Authors
-Copyright 2010 The Go Authors. All rights reserved.
-Copyright 2012-2015 The Prometheus Authors
-Copyright 2013-2015 Blake Mizerany, Björn Rabenstein
-Copyright 2014 gRPC authors.
-Copyright 2014-2015 The Prometheus Authors
-Copyright 2015 The Go Authors.
-Copyright 2015 The Prometheus Authors
-Copyright 2016 The filepathx Authors
-Copyright 2016-2017 The New York Times Company
-Copyright 2023 The Go Authors. All rights reserved.
-Copyright The OpenTelemetry Authors
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3125,7 +3097,13 @@ go.opentelemetry.io/otel
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright (c) 2016-2017 Uber Technologies, Inc.
+Copyright (c) 2017 Uber Technologies, Inc.
+Copyright (c) 2021 The Jaeger Authors.
+Copyright 2014 gRPC authors.
+Copyright 2017, OpenCensus Authors
+Copyright 2023 The Go Authors. All rights reserved.
+Copyright The OpenTelemetry Authors
 
 --------------------------------- (separator) ----------------------------------
 

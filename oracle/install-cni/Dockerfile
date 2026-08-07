@@ -38,7 +38,7 @@ COPY --from=0 /SECURITY/${APP_NAME}-${VERSION}/SECURITY.md /SECURITY/${APP_NAME}
 COPY --from=0 /usr/local/bin/istio-cni /opt/cni/bin/istio-cni
 COPY --from=0 /usr/local/bin/install-cni /usr/local/bin/install-cni
 
-RUN microdnf install -y iptables iproute && \
+RUN microdnf install -y iptables iproute libibverbs&& \
     microdnf clean all && \
     rm -rf /var/cache/yum
 

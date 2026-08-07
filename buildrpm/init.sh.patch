@@ -1,0 +1,13 @@
+diff --git bin/init.sh bin/init.sh
+index 8849076905..a2c3122389 100755
+--- bin/init.sh
++++ bin/init.sh
+@@ -134,7 +134,7 @@ else
+ fi
+ 
+ # Download and extract the Envoy linux release binary.
+-download_envoy_if_necessary "${ISTIO_ENVOY_LINUX_RELEASE_URL}" "$ISTIO_ENVOY_LINUX_RELEASE_PATH" "${SIDECAR}"
++#download_envoy_if_necessary "${ISTIO_ENVOY_LINUX_RELEASE_URL}" "$ISTIO_ENVOY_LINUX_RELEASE_PATH" "${SIDECAR}"
+ ISTIO_ENVOY_NATIVE_PATH=${ISTIO_ENVOY_LINUX_RELEASE_PATH}
+ 
+ # Copy native envoy binary to TARGET_OUT

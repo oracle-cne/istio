@@ -1,0 +1,23 @@
+diff --git a/common/scripts/run.sh b/common/scripts/run.sh
+index a85a9b118f..a15116d90c 100755
+--- common/scripts/run.sh
++++ common/scripts/run.sh
+@@ -24,7 +24,7 @@
+ # See the License for the specific language governing permissions and
+ # limitations under the License.
+
+-set -e
++set -x
+
+ WD=$(dirname "$0")
+ WD=$(cd "$WD"; pwd)
+@@ -45,9 +45,8 @@ read -ra DOCKER_RUN_OPTIONS <<< "${DOCKER_RUN_OPTIONS:-}"
+ "${CONTAINER_CLI}" run \
+     --rm \
+     "${DOCKER_RUN_OPTIONS[@]}" \
+-    --init \
+     --sig-proxy=true \
+     --cap-add=SYS_ADMIN \
+     ${DOCKER_SOCKET_MOUNT:--v /var/run/docker.sock:/var/run/docker.sock} \
+     -e DOCKER_HOST=${DOCKER_SOCKET_HOST:-unix:///var/run/docker.sock} \
+     $CONTAINER_OPTIONS \

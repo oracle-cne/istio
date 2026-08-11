@@ -1,0 +1,29 @@
+
+@Library('olcne-pipeline') _
+import com.oracle.olcne.pipeline.BranchPattern
+
+String istio_version = '1.26.8'
+String image_tag = istio_version + ''
+
+olcnePipeline(
+  branchPattern: new BranchPattern(master: "oracle/release/" + istio_version, feature: '(?!^release/.*$)(^.*$)'),
+  containers: [
+    ('container-registry.oracle.com/olcne/pilot:' + image_tag)         : 'olcne/pilot:' + image_tag,
+    ('container-registry.oracle.com/olcne/proxyv2:' + image_tag)       : 'olcne/proxyv2:' + image_tag,
+    ('container-registry.oracle.com/olcne/istio_kubectl:' + image_tag) : 'olcne/istio_kubectl:' + image_tag,
+    ('container-registry.oracle.com/olcne/install-cni:' + image_tag) : 'olcne/install-cni:' + image_tag,
+    ('container-registry.oracle.com/olcne/istio-istioctl:' + image_tag) : 'olcne/istio-istioctl:' + image_tag,
+  ],
+  publishImage: true,
+  platforms: ['ol8', 'ol9'],
+  yumOL8Repos: ['ol8_appstream', 'ol8_codeready_builder'],
+  yumOL9Repos: ['ol9_appstream', 'ol9_codeready_builder', 'ol9_developer_EPEL'],
+  architectures: ['x86_64', 'aarch64'],
+  builderEphemeralRequest: '25G',
+  customPlatformStages: [
+    customPlatformSteps: [
+      ol8: [container: [enabled: true ], buildContainerRpms: [enabled: true ]],
+      ol9: [container: [enabled: false], buildContainerRpms: [enabled: false]],
+    ],
+  ],
+)

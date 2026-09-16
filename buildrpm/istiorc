@@ -1,0 +1,4 @@
+export HUB=container-registry.oracle.com/olcne
+export TAG=1.29.7
+export BUILDINFO=buildinfo
+export STATIC=1

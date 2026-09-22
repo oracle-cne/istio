@@ -1,0 +1,13 @@
+diff --git common/scripts/gobuild.sh common/scripts/gobuild.sh
+index 25f2c8120d..9b1f89eeb1 100755
+--- common/scripts/gobuild.sh
++++ common/scripts/gobuild.sh
+@@ -70,7 +70,7 @@ while read -r line; do
+     LD_EXTRAFLAGS="${LD_EXTRAFLAGS} -X ${line}"
+ done < "${BUILDINFO}"
+ 
+-OPTIMIZATION_FLAGS=(-trimpath)
++OPTIMIZATION_FLAGS=(-trimpath=false)
+ if [ "${DEBUG}" == "1" ]; then
+     OPTIMIZATION_FLAGS=()
+ fi

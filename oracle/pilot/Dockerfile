@@ -6,10 +6,8 @@ FROM container-registry.oracle.com/os/oraclelinux:8-slim
 
 ARG VERSION
 ARG APP_NAME=pilot-discovery
-ARG REPO_NAME=ol8_addons
 
-COPY *.repo /etc/yum.repos.d/
-RUN microdnf install -y --enablerepo=${REPO_NAME} istio-${VERSION} istio-${APP_NAME}-${VERSION}
+RUN microdnf install -y istio-${VERSION} istio-${APP_NAME}-${VERSION}
 
 RUN test -d /LICENSES || ln -s /usr/share/licenses /LICENSES
 ADD LICENSE /LICENSES/${APP_NAME}-${VERSION}/LICENSE
@@ -36,7 +34,6 @@ RUN mkdir -p /tmp/
 WORKDIR /
 
 # "runAsUser: 1337" was removed in 1.20:
-# https://linux-git.oraclecorp.com/OLCNE/istio/istio/-/blob/oracle/release/1.19.5/manifests/charts/istio-control/istio-discovery/templates/deployment.yaml#L191
 USER 1337:1337
 
 ENTRYPOINT [ "/usr/local/bin/pilot-discovery" ]

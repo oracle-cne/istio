@@ -17,5 +17,5 @@ index 4a2ebc94c6..86bb67ef77 100755
      "${DOCKER_RUN_OPTIONS[@]}" \
 -    --init \
      --sig-proxy=true \
+     --cap-add=SYS_ADMIN \
      ${DOCKER_SOCKET_MOUNT:--v /var/run/docker.sock:/var/run/docker.sock} \
-     $CONTAINER_OPTIONS \

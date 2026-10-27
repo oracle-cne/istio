@@ -6,7 +6,6 @@ FROM container-registry.oracle.com/os/oraclelinux:8-slim
 
 ARG VERSION
 ARG APP_NAME=proxy
-ARG REPO_NAME=ol8_addons
 
 # Only need ca-certificates & openssl if want to use DNS over TLS (RFC 7858).
 # binutils: Used for tool `ar` which gets the ca for a deb package
@@ -15,9 +14,7 @@ ARG REPO_NAME=ol8_addons
 
 RUN microdnf install -y ca-certificates binutils openssl tar xz gzip
 
-COPY *.repo /etc/yum.repos.d/
-
-RUN microdnf --enablerepo=${REPO_NAME} -y install istio-${VERSION} istio-pilot-agent-${VERSION} istio-${APP_NAME}-${VERSION}
+RUN microdnf -y install istio-${VERSION} istio-pilot-agent-${VERSION} istio-${APP_NAME}-${VERSION}
 RUN microdnf -y install iptables iproute
 
 RUN test -d /LICENSES || ln -s /usr/share/licenses /LICENSES

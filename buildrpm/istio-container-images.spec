@@ -17,6 +17,8 @@ Source:                     %{name}-%{version}.tar.bz2
 Vendor:                     Oracle America
 BuildRequires:              rpm >= 4.11.3
 BuildRequires:              ca-certificates
+BuildRequires:              podman
+BuildRequires:              bash
 
 %prep
 %setup -n %{name}-%{version}
@@ -29,7 +31,7 @@ such as Kubernetes, Mesos, etc.
 
 %build
 chmod +x ./oracle/build-istio-container-images.sh
-YUM_REPO=%{yum_repo} ./oracle/build-istio-container-images.sh \
+./oracle/build-istio-container-images.sh \
     --image-dir %{image_dir} \
     --image-tag %{image_tag} \
     --rpm-release %{istio_release} \

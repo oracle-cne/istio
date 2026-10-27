@@ -4,14 +4,11 @@
 
 FROM container-registry.oracle.com/os/oraclelinux:8-slim
 
-ARG REPO_NAME
 ARG KUBECTL_VERSION
 # Image for post install jobs
 
-COPY *.repo /etc/yum.repos.d/
-
 # Install the latest kubectl
-RUN microdnf install --enablerepo=${REPO_NAME} -y kubectl-${KUBECTL_VERSION}
+RUN microdnf install -y kubectl-${KUBECTL_VERSION}
 RUN chmod +x /usr/bin/kubectl
 
 # --------------------------------------------------------------------

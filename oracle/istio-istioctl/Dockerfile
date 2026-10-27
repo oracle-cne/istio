@@ -4,14 +4,11 @@
 
 FROM container-registry.oracle.com/os/oraclelinux:8-slim
 
-ARG REPO_NAME
 ARG ISTIO_VERSION
 # Image for post install jobs
 
-COPY *.repo /etc/yum.repos.d/
-
 # Install the specific istioctl version
-RUN microdnf install --enablerepo=${REPO_NAME} -y istio-istioctl-${ISTIO_VERSION}
+RUN microdnf install -y istio-istioctl-${ISTIO_VERSION}
 RUN chmod +x /usr/local/bin/istioctl
 
 # --------------------------------------------------------------------

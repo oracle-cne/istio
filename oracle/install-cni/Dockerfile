@@ -17,11 +17,8 @@ FROM container-registry.oracle.com/os/oraclelinux:8-slim
 
 ARG VERSION
 ARG APP_NAME=install-cni
-ARG REPO_NAME=ol8_addons
 
-COPY *.repo /etc/yum.repos.d/
-
-RUN microdnf install -y --enablerepo=${REPO_NAME} istio-${VERSION} istio-${APP_NAME}-${VERSION}
+RUN microdnf install -y istio-${VERSION} istio-${APP_NAME}-${VERSION}
 
 RUN test -d /LICENSES || ln -s /usr/share/licenses /LICENSES
 ADD LICENSE /LICENSES/${APP_NAME}-${VERSION}/LICENSE
@@ -41,7 +38,7 @@ COPY --from=0 /SECURITY/${APP_NAME}-${VERSION}/SECURITY.md /SECURITY/${APP_NAME}
 COPY --from=0 /usr/local/bin/istio-cni /opt/cni/bin/istio-cni
 COPY --from=0 /usr/local/bin/install-cni /usr/local/bin/install-cni
 
-RUN microdnf install -y iptables iproute && \
+RUN microdnf install -y iptables iproute libibverbs && \
     microdnf clean all && \
     rm -rf /var/cache/yum
 

@@ -211,6 +211,8 @@ pushd %{istio_go_src}
 %endif
 %patch4
 %patch5
+# Skip the upstream ztunnel binary download; ztunnel builds its own image.
+%patch7
 popd
 
 which python || ln -s /usr/bin/python2 /usr/bin/python

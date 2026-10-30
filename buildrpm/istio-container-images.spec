@@ -57,5 +57,5 @@ install -p -m 755 -t %{buildroot}/usr/local/share/istio %{image_dir}/istio-istio
 %clean
 
 %changelog
-* Tue Oct 27 2026 Oracle Cloud Native Environment Authors <noreply@oracle.com> - 1.31.3-1
+* Fri Oct 30 2026 Oracle Cloud Native Environment Authors <noreply@oracle.com> - 1.31.3-1
 - Added Oracle specific files for 1.31.3

@@ -79,6 +79,7 @@ BuildRequires:  python2
 %endif
 BuildRequires:  hostname
 BuildRequires:  helm
+BuildRequires:  podman
 
 %if "%{dist}" == ".el8"
 BuildRequires:  istio-proxy = %{version}
@@ -211,6 +212,7 @@ pushd %{istio_go_src}
 %endif
 %patch4
 %patch5
+%patch7
 popd
 
 which python || ln -s /usr/bin/python2 /usr/bin/python
@@ -268,6 +270,15 @@ export ISTIO_ENVOY_LINUX_RELEASE_PATH=${ISTIO_ENVOY_LINUX_RELEASE_DIR}/envoy
 # Use podman instead of Docker
 export CONTAINER_CLI=podman
 export DOCKER_SOCKET_MOUNT=" "
+
+# Patch7 disables upstream ztunnel initialization. Supply the Oracle image binary
+# without executing it: the image is OL9 based, while this RPM also builds on OL8.
+echo "Extracting Oracle ztunnel %{version} for linux/%{custom_arch}"
+bash oracle/extract-ztunnel.sh \
+  "${ZTUNNEL_IMAGE:-container-registry.oracle.com/olcne/ztunnel:%{version}}" \
+  "%{custom_arch}" \
+  "$(pwd)/out/%{linux_arch}/ztunnel"
+
 # Jenkins pipeline has DEBUG=false which clobbers the Makefile
 # 1.18 - change build target from binaries to build-linux
 make USE_LOCAL_PROXY=1 DEBUG=0 build-linux && echo "OK"

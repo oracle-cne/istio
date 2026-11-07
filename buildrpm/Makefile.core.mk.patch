@@ -1,0 +1,13 @@
+diff --git Makefile.core.mk Makefile.core.mk
+index e406260b5b..1bdd9912d9 100644
+--- Makefile.core.mk
++++ Makefile.core.mk
+@@ -152,7 +152,7 @@ default: init build test
+ 
+ .PHONY: init
+ # Downloads envoy, based on the SHA defined in the base pilot Dockerfile
+-init: $(TARGET_OUT)/istio_is_init init-ztunnel-rs
++init: $(TARGET_OUT)/istio_is_init
+ 	@mkdir -p ${TARGET_OUT}/logs
+ 	@mkdir -p ${TARGET_OUT}/release
+ 

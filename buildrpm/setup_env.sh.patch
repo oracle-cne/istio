@@ -1,0 +1,11 @@
+--- common/scripts/setup_env.sh
++++ common/scripts/setup_env.sh
+@@ -106,7 +106,7 @@ fi
+
+ # gitconfig conditional host mount (needed for git commands inside container)
+ if [[ -f "${HOME}/.gitconfig" ]]; then
+-  CONDITIONAL_HOST_MOUNTS+="--mount type=bind,source=${HOME}/.gitconfig,destination=/home/.gitconfig,readonly "
++  CONDITIONAL_HOST_MOUNTS+="--mount type=bind,source=${HOME}/.gitconfig,destination=/home/.gitconfig "
+ fi
+
+ # .netrc conditional host mount (needed for git commands inside container)

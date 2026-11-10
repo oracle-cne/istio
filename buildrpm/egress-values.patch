@@ -1,0 +1,13 @@
+diff --git manifests/charts/gateways/istio-egress/values.yaml manifests/charts/gateways/istio-egress/values.yaml
+index 9428b4e..de4dc39 100644
+--- manifests/charts/gateways/istio-egress/values.yaml
++++ manifests/charts/gateways/istio-egress/values.yaml
+@@ -109,7 +109,7 @@ gateways:
+     podAntiAffinityTermLabelSelector: []
+
+     # whether to run the gateway in a privileged container
+-    runAsRoot: false
++    runAsRoot: true
+
+     # The injection template to use for the gateway. If not set, no injection will be performed.
+     injectionTemplate: ""
